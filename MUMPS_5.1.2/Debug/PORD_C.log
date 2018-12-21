@@ -1,0 +1,17 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (LIBMPISEQ_C.vcxproj, MUMPS_COMMON_OBJ_C.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  bucket.c
+  ddbisect.c
+  ddcreate.c
+  gbipart.c
+  gbisect.c
+  gelim.c
+  graph.c
+  interface.c
+  minpriority.c
+  multisector.c
+  nestdiss.c
+  sort.c
+  symbfac.c
+  tree.c
+  Generating Code...
+  PORD_C.vcxproj -> C:\mumps\MUMPS_5.1.2\Debug\PORD_C.lib

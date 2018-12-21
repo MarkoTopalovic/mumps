@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/mumps/MUMPS_5.1.2/CMakeLists.txt
+  CMake does not need to re-run because C:/mumps/MUMPS_5.1.2/CMakeFiles/generate.stamp is up-to-date.
+     Creating library C:/mumps/MUMPS_5.1.2/Debug/libdmumps.lib and object C:/mumps/MUMPS_5.1.2/Debug/libdmumps.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  libdmumps.vcxproj -> C:\mumps\MUMPS_5.1.2\Debug\libdmumps.dll
+  libdmumps.vcxproj -> C:/mumps/MUMPS_5.1.2/Debug/libdmumps.pdb (Full PDB)

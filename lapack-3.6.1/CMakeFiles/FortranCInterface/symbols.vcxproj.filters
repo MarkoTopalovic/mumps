@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Program Files\CMake\share\cmake-3.13\Modules\FortranCInterface\mymodule_.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\CMake\share\cmake-3.13\Modules\FortranCInterface\my_module_.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\CMake\share\cmake-3.13\Modules\FortranCInterface\MY_MODULE.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\CMake\share\cmake-3.13\Modules\FortranCInterface\MYMODULE.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mumps\lapack-3.6.1\CMakeFiles\FortranCInterface\symbols\my_sub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mumps\lapack-3.6.1\CMakeFiles\FortranCInterface\symbols\my_sub_.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mumps\lapack-3.6.1\CMakeFiles\FortranCInterface\symbols\my_sub__.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mumps\lapack-3.6.1\CMakeFiles\FortranCInterface\symbols\MY_SUB-UPPER.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mumps\lapack-3.6.1\CMakeFiles\FortranCInterface\symbols\mysub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mumps\lapack-3.6.1\CMakeFiles\FortranCInterface\symbols\mysub_.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mumps\lapack-3.6.1\CMakeFiles\FortranCInterface\symbols\MYSUB-UPPER.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mumps\lapack-3.6.1\CMakeFiles\FortranCInterface\symbols\__my_module_MOD_my_sub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mumps\lapack-3.6.1\CMakeFiles\FortranCInterface\symbols\__my_module_NMOD_my_sub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mumps\lapack-3.6.1\CMakeFiles\FortranCInterface\symbols\__my_module__my_sub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mumps\lapack-3.6.1\CMakeFiles\FortranCInterface\symbols\__mymodule_MOD_mysub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mumps\lapack-3.6.1\CMakeFiles\FortranCInterface\symbols\__mymodule_NMOD_mysub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mumps\lapack-3.6.1\CMakeFiles\FortranCInterface\symbols\__mymodule__mysub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mumps\lapack-3.6.1\CMakeFiles\FortranCInterface\symbols\my_moduleSmy_sub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mumps\lapack-3.6.1\CMakeFiles\FortranCInterface\symbols\my_module_mp_my_sub_.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mumps\lapack-3.6.1\CMakeFiles\FortranCInterface\symbols\MY_MODULE_mp_MY_SUB-UPPER.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mumps\lapack-3.6.1\CMakeFiles\FortranCInterface\symbols\my_module_my_sub_.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mumps\lapack-3.6.1\CMakeFiles\FortranCInterface\symbols\my_module_MP_my_sub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mumps\lapack-3.6.1\CMakeFiles\FortranCInterface\symbols\mymoduleSmysub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mumps\lapack-3.6.1\CMakeFiles\FortranCInterface\symbols\mymodule_mp_mysub_.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mumps\lapack-3.6.1\CMakeFiles\FortranCInterface\symbols\MYMODULE_mp_MYSUB-UPPER.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mumps\lapack-3.6.1\CMakeFiles\FortranCInterface\symbols\mymodule_mysub_.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mumps\lapack-3.6.1\CMakeFiles\FortranCInterface\symbols\mymodule_MP_mysub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Program Files\CMake\share\cmake-3.13\Modules\FortranCInterface\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C41F8234-8913-3114-B420-2290A5BF449D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

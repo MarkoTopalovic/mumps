@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{5B87C029-1408-317D-9F92-FE7CF3FFEC30}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32" OutputDirectory="C:\mumps\lapack-3.6.1\bin\Debug" IntermediateDirectory="xlintstd.dir\Debug" TargetName="xlintstd">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Preprocess="preprocessYes" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;" ModulePath=".\$(ConfigurationName)" AssemblerListingLocation="Debug/" RuntimeLibrary="rtMultiThreadedDebugDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLinkerTool" AdditionalOptions="/machine:X86 /debug /INCREMENTAL" OutputFile="C:\mumps\lapack-3.6.1\bin\Debug\xlintstd.exe" Version="0.0" LinkLibraryDependencies="false" GenerateDebugInformation="true" ProgramDatabaseFile="C:\mumps\lapack-3.6.1\bin\Debug/xlintstd.pdb" SubSystem="subSystemConsole" ImportLibrary="C:\mumps\lapack-3.6.1\lib\Debug\xlintstd.lib" AdditionalDependencies="$(NOINHERIT) user32.lib ..\..\lib\Debug\tmglib.lib ..\..\lib\Debug\lapack.lib ..\..\lib\Debug\blas.lib "/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -E make_directory C:/mumps/lapack-3.6.1/lib/Debug&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="Release|Win32" OutputDirectory="C:\mumps\lapack-3.6.1\bin\Release" IntermediateDirectory="xlintstd.dir\Release" TargetName="xlintstd">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1 /O2" SuppressStartupBanner="true" Preprocess="preprocessYes" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;" ModulePath=".\$(ConfigurationName)" AssemblerListingLocation="Release/" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLinkerTool" AdditionalOptions="/machine:X86" OutputFile="C:\mumps\lapack-3.6.1\bin\Release\xlintstd.exe" Version="0.0" LinkIncremental="linkIncrementalNo" LinkLibraryDependencies="false" ProgramDatabaseFile="C:\mumps\lapack-3.6.1\bin\Release/xlintstd.pdb" SubSystem="subSystemConsole" ImportLibrary="C:\mumps\lapack-3.6.1\lib\Release\xlintstd.lib" AdditionalDependencies="$(NOINHERIT) user32.lib ..\..\lib\Release\tmglib.lib ..\..\lib\Release\lapack.lib ..\..\lib\Release\blas.lib "/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -E make_directory C:/mumps/lapack-3.6.1/lib/Release&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="MinSizeRel|Win32" OutputDirectory="C:\mumps\lapack-3.6.1\bin\MinSizeRel" IntermediateDirectory="xlintstd.dir\MinSizeRel" TargetName="xlintstd">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1" SuppressStartupBanner="true" Optimization="optimizeMinSpace" Preprocess="preprocessYes" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;" ModulePath=".\$(ConfigurationName)" AssemblerListingLocation="MinSizeRel/" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLinkerTool" AdditionalOptions="/machine:X86" OutputFile="C:\mumps\lapack-3.6.1\bin\MinSizeRel\xlintstd.exe" Version="0.0" LinkIncremental="linkIncrementalNo" LinkLibraryDependencies="false" ProgramDatabaseFile="C:\mumps\lapack-3.6.1\bin\MinSizeRel/xlintstd.pdb" SubSystem="subSystemConsole" ImportLibrary="C:\mumps\lapack-3.6.1\lib\MinSizeRel\xlintstd.lib" AdditionalDependencies="$(NOINHERIT) user32.lib ..\..\lib\MinSizeRel\tmglib.lib ..\..\lib\MinSizeRel\lapack.lib ..\..\lib\MinSizeRel\blas.lib "/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -E make_directory C:/mumps/lapack-3.6.1/lib/MinSizeRel&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="RelWithDebInfo|Win32" OutputDirectory="C:\mumps\lapack-3.6.1\bin\RelWithDebInfo" IntermediateDirectory="xlintstd.dir\RelWithDebInfo" TargetName="xlintstd">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1 /O2" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Preprocess="preprocessYes" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;" ModulePath=".\$(ConfigurationName)" AssemblerListingLocation="RelWithDebInfo/" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLinkerTool" AdditionalOptions="/machine:X86 /debug /INCREMENTAL" OutputFile="C:\mumps\lapack-3.6.1\bin\RelWithDebInfo\xlintstd.exe" Version="0.0" LinkLibraryDependencies="false" GenerateDebugInformation="true" ProgramDatabaseFile="C:\mumps\lapack-3.6.1\bin\RelWithDebInfo/xlintstd.pdb" SubSystem="subSystemConsole" ImportLibrary="C:\mumps\lapack-3.6.1\lib\RelWithDebInfo\xlintstd.lib" AdditionalDependencies="$(NOINHERIT) user32.lib ..\..\lib\RelWithDebInfo\tmglib.lib ..\..\lib\RelWithDebInfo\lapack.lib ..\..\lib\RelWithDebInfo\blas.lib "/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -E make_directory C:/mumps/lapack-3.6.1/lib/RelWithDebInfo&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Source Files">
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\aladhd.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\alaerh.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\alaesm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\alahd.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\alareq.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\alasum.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\alasvm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\chkxer.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dchkaa.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dchkeq.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dchkgb.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dchkge.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dchkgt.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dchklq.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dchkpb.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dchkpo.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dchkpp.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dchkps.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dchkpt.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dchkq3.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dchkql.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dchkqr.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dchkqrt.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dchkqrtp.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dchkrq.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dchksp.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dchksy.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dchksy_rook.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dchktb.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dchktp.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dchktr.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dchktz.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\ddrvgb.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\ddrvge.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\ddrvgt.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\ddrvls.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\ddrvpb.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\ddrvpo.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\ddrvpp.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\ddrvpt.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\ddrvsp.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\ddrvsy.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\ddrvsy_rook.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\derrge.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\derrgt.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\derrlq.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\derrls.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\derrpo.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\derrps.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\derrql.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\derrqp.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\derrqr.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\derrqrt.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\derrqrtp.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\derrrq.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\derrsy.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\derrtr.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\derrtz.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\derrvx.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dgbt01.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dgbt02.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dgbt05.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dgelqs.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dgennd.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dgeqls.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dgeqrs.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dgerqs.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dget01.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dget02.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dget03.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dget04.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dget06.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dget07.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dgtt01.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dgtt02.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dgtt05.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dlaord.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dlaptm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dlarhs.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dlatb4.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dlatb5.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dlattb.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dlattp.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dlattr.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dlavsp.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dlavsy.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dlavsy_rook.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dlqt01.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dlqt02.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dlqt03.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dpbt01.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dpbt02.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dpbt05.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dpot01.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dpot02.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dpot03.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dpot05.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dppt01.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dppt02.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dppt03.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dppt05.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dpst01.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dptt01.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dptt02.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dptt05.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dqlt01.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dqlt02.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dqlt03.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dqpt01.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dqrt01.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dqrt01p.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dqrt02.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dqrt03.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dqrt04.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dqrt05.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dqrt11.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dqrt12.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dqrt13.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dqrt14.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dqrt15.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dqrt16.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dqrt17.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\drqt01.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\drqt02.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\drqt03.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\drzt01.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\drzt02.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\INSTALL\dsecnd_EXT_ETIME.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dspt01.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dsyt01.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dsyt01_rook.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dtbt02.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dtbt03.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dtbt05.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dtbt06.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dtpt01.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dtpt02.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dtpt03.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dtpt05.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dtpt06.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dtrt01.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dtrt02.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dtrt03.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dtrt05.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dtrt06.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\icopy.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\ilaenv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\xerbla.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\xlaenv.f"/></Filter>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeLists.txt">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/mumps/lapack-3.6.1 -BC:/mumps/lapack-3.6.1 --check-stamp-file C:/mumps/lapack-3.6.1/TESTING/LIN/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/mumps/lapack-3.6.1/TESTING/LIN/CMakeLists.txt" Outputs="C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeFiles\generate.stamp" AdditionalDependencies="C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeLists.txt;C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/mumps/lapack-3.6.1 -BC:/mumps/lapack-3.6.1 --check-stamp-file C:/mumps/lapack-3.6.1/TESTING/LIN/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/mumps/lapack-3.6.1/TESTING/LIN/CMakeLists.txt" Outputs="C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeFiles\generate.stamp" AdditionalDependencies="C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeLists.txt;C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/mumps/lapack-3.6.1 -BC:/mumps/lapack-3.6.1 --check-stamp-file C:/mumps/lapack-3.6.1/TESTING/LIN/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/mumps/lapack-3.6.1/TESTING/LIN/CMakeLists.txt" Outputs="C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeFiles\generate.stamp" AdditionalDependencies="C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeLists.txt;C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/mumps/lapack-3.6.1 -BC:/mumps/lapack-3.6.1 --check-stamp-file C:/mumps/lapack-3.6.1/TESTING/LIN/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/mumps/lapack-3.6.1/TESTING/LIN/CMakeLists.txt" Outputs="C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeFiles\generate.stamp" AdditionalDependencies="C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeLists.txt;C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeLists.txt;"/></FileConfiguration></File></Files>
+	<Globals/></VisualStudioProject>

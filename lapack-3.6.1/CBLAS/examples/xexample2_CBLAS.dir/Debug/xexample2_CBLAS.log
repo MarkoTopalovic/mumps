@@ -1,0 +1,8 @@
+﻿  Building Custom Rule C:/mumps/lapack-3.6.1/CBLAS/examples/CMakeLists.txt
+  CMake does not need to re-run because C:/mumps/lapack-3.6.1/CBLAS/examples/CMakeFiles/generate.stamp is up-to-date.
+  cblas_example2.c
+C:\mumps\lapack-3.6.1\CBLAS\include\cblas_f77.h(296): warning C4030: first formal parameter list longer than the second list
+C:\mumps\lapack-3.6.1\CBLAS\include\cblas_f77.h(296): warning C4028: formal parameter 6 different from declaration
+C:\mumps\lapack-3.6.1\CBLAS\include\cblas_f77.h(296): warning C4028: formal parameter 7 different from declaration
+cblas_example2.obj : error LNK2019: unresolved external symbol _cblas_dgemm referenced in function _main
+C:\mumps\lapack-3.6.1\bin\Debug\xexample2_CBLAS.exe : fatal error LNK1120: 1 unresolved externals

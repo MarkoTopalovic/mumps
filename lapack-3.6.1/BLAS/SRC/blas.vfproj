@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectType="typeStaticLibrary" ProjectCreator="Intel Fortran" Keyword="Static Library" Version="11.0" ProjectIdGuid="{0AA3CFFA-2479-3748-8DF4-369E5458FE11}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32" OutputDirectory="C:\mumps\lapack-3.6.1\lib\Debug" IntermediateDirectory="blas.dir\Debug" TargetName="blas" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Preprocess="preprocessYes" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;" ModulePath=".\$(ConfigurationName)" AssemblerListingLocation="Debug/" RuntimeLibrary="rtMultiThreadedDebugDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" AdditionalOptions="/machine:X86" OutputFile="C:\mumps\lapack-3.6.1\lib\Debug\blas.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="Release|Win32" OutputDirectory="C:\mumps\lapack-3.6.1\lib\Release" IntermediateDirectory="blas.dir\Release" TargetName="blas" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1 /O2" SuppressStartupBanner="true" Preprocess="preprocessYes" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;" ModulePath=".\$(ConfigurationName)" AssemblerListingLocation="Release/" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" AdditionalOptions="/machine:X86" OutputFile="C:\mumps\lapack-3.6.1\lib\Release\blas.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="MinSizeRel|Win32" OutputDirectory="C:\mumps\lapack-3.6.1\lib\MinSizeRel" IntermediateDirectory="blas.dir\MinSizeRel" TargetName="blas" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1" SuppressStartupBanner="true" Optimization="optimizeMinSpace" Preprocess="preprocessYes" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;" ModulePath=".\$(ConfigurationName)" AssemblerListingLocation="MinSizeRel/" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" AdditionalOptions="/machine:X86" OutputFile="C:\mumps\lapack-3.6.1\lib\MinSizeRel\blas.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="RelWithDebInfo|Win32" OutputDirectory="C:\mumps\lapack-3.6.1\lib\RelWithDebInfo" IntermediateDirectory="blas.dir\RelWithDebInfo" TargetName="blas" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1 /O2" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Preprocess="preprocessYes" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;" ModulePath=".\$(ConfigurationName)" AssemblerListingLocation="RelWithDebInfo/" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" AdditionalOptions="/machine:X86" OutputFile="C:\mumps\lapack-3.6.1\lib\RelWithDebInfo\blas.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Source Files">
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\caxpy.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\ccopy.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\cdotc.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\cdotu.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\cgbmv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\cgemm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\cgemv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\cgerc.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\cgeru.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\chbmv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\chemm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\chemv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\cher.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\cher2.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\cher2k.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\cherk.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\chpmv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\chpr.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\chpr2.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\crotg.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\cscal.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\csrot.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\csscal.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\cswap.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\csymm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\csyr2k.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\csyrk.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\ctbmv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\ctbsv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\ctpmv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\ctpsv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\ctrmm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\ctrmv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\ctrsm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\ctrsv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dasum.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\daxpy.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dcabs1.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dcopy.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\ddot.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dgbmv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dgemm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dgemv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dger.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dnrm2.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\drot.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\drotg.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\drotm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\drotmg.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dsbmv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dscal.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dsdot.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dspmv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dspr.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dspr2.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dswap.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dsymm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dsymv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dsyr.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dsyr2.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dsyr2k.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dsyrk.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dtbmv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dtbsv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dtpmv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dtpsv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dtrmm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dtrmv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dtrsm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dtrsv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dzasum.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\dznrm2.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\icamax.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\idamax.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\isamax.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\izamax.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\lsame.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\sasum.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\saxpy.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\scabs1.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\scasum.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\scnrm2.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\scopy.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\sdot.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\sdsdot.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\sgbmv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\sgemm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\sgemv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\sger.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\snrm2.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\srot.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\srotg.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\srotm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\srotmg.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\ssbmv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\sscal.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\sspmv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\sspr.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\sspr2.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\sswap.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\ssymm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\ssymv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\ssyr.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\ssyr2.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\ssyr2k.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\ssyrk.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\stbmv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\stbsv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\stpmv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\stpsv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\strmm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\strmv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\strsm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\strsv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\xerbla.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\xerbla_array.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zaxpy.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zcopy.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zdotc.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zdotu.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zdrot.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zdscal.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zgbmv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zgemm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zgemv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zgerc.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zgeru.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zhbmv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zhemm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zhemv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zher.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zher2.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zher2k.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zherk.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zhpmv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zhpr.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zhpr2.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zrotg.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zscal.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zswap.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zsymm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zsyr2k.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\zsyrk.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\ztbmv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\ztbsv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\ztpmv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\ztpsv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\ztrmm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\ztrmv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\ztrsm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\ztrsv.f"/></Filter>
+		<File RelativePath="C:\mumps\lapack-3.6.1\BLAS\SRC\CMakeLists.txt">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/mumps/lapack-3.6.1 -BC:/mumps/lapack-3.6.1 --check-stamp-file C:/mumps/lapack-3.6.1/BLAS/SRC/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/mumps/lapack-3.6.1/BLAS/SRC/CMakeLists.txt" Outputs="C:\mumps\lapack-3.6.1\BLAS\SRC\CMakeFiles\generate.stamp" AdditionalDependencies="C:\mumps\lapack-3.6.1\BLAS\SRC\CMakeLists.txt;C:\mumps\lapack-3.6.1\BLAS\SRC\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/mumps/lapack-3.6.1 -BC:/mumps/lapack-3.6.1 --check-stamp-file C:/mumps/lapack-3.6.1/BLAS/SRC/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/mumps/lapack-3.6.1/BLAS/SRC/CMakeLists.txt" Outputs="C:\mumps\lapack-3.6.1\BLAS\SRC\CMakeFiles\generate.stamp" AdditionalDependencies="C:\mumps\lapack-3.6.1\BLAS\SRC\CMakeLists.txt;C:\mumps\lapack-3.6.1\BLAS\SRC\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/mumps/lapack-3.6.1 -BC:/mumps/lapack-3.6.1 --check-stamp-file C:/mumps/lapack-3.6.1/BLAS/SRC/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/mumps/lapack-3.6.1/BLAS/SRC/CMakeLists.txt" Outputs="C:\mumps\lapack-3.6.1\BLAS\SRC\CMakeFiles\generate.stamp" AdditionalDependencies="C:\mumps\lapack-3.6.1\BLAS\SRC\CMakeLists.txt;C:\mumps\lapack-3.6.1\BLAS\SRC\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/mumps/lapack-3.6.1 -BC:/mumps/lapack-3.6.1 --check-stamp-file C:/mumps/lapack-3.6.1/BLAS/SRC/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/mumps/lapack-3.6.1/BLAS/SRC/CMakeLists.txt" Outputs="C:\mumps\lapack-3.6.1\BLAS\SRC\CMakeFiles\generate.stamp" AdditionalDependencies="C:\mumps\lapack-3.6.1\BLAS\SRC\CMakeLists.txt;C:\mumps\lapack-3.6.1\BLAS\SRC\CMakeLists.txt;"/></FileConfiguration></File></Files>
+	<Globals/></VisualStudioProject>

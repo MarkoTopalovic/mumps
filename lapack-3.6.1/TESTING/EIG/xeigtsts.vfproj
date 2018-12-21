@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{967A87A4-BEBC-32CD-9FD9-4DA4E59E353C}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32" OutputDirectory="C:\mumps\lapack-3.6.1\bin\Debug" IntermediateDirectory="xeigtsts.dir\Debug" TargetName="xeigtsts">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Preprocess="preprocessYes" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;" ModulePath=".\$(ConfigurationName)" AssemblerListingLocation="Debug/" RuntimeLibrary="rtMultiThreadedDebugDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLinkerTool" AdditionalOptions="/machine:X86 /debug /INCREMENTAL" OutputFile="C:\mumps\lapack-3.6.1\bin\Debug\xeigtsts.exe" Version="0.0" LinkLibraryDependencies="false" GenerateDebugInformation="true" ProgramDatabaseFile="C:\mumps\lapack-3.6.1\bin\Debug/xeigtsts.pdb" SubSystem="subSystemConsole" ImportLibrary="C:\mumps\lapack-3.6.1\lib\Debug\xeigtsts.lib" AdditionalDependencies="$(NOINHERIT) user32.lib ..\..\lib\Debug\tmglib.lib ..\..\lib\Debug\lapack.lib ..\..\lib\Debug\blas.lib "/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -E make_directory C:/mumps/lapack-3.6.1/lib/Debug&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="Release|Win32" OutputDirectory="C:\mumps\lapack-3.6.1\bin\Release" IntermediateDirectory="xeigtsts.dir\Release" TargetName="xeigtsts">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1 /O2" SuppressStartupBanner="true" Preprocess="preprocessYes" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;" ModulePath=".\$(ConfigurationName)" AssemblerListingLocation="Release/" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLinkerTool" AdditionalOptions="/machine:X86" OutputFile="C:\mumps\lapack-3.6.1\bin\Release\xeigtsts.exe" Version="0.0" LinkIncremental="linkIncrementalNo" LinkLibraryDependencies="false" ProgramDatabaseFile="C:\mumps\lapack-3.6.1\bin\Release/xeigtsts.pdb" SubSystem="subSystemConsole" ImportLibrary="C:\mumps\lapack-3.6.1\lib\Release\xeigtsts.lib" AdditionalDependencies="$(NOINHERIT) user32.lib ..\..\lib\Release\tmglib.lib ..\..\lib\Release\lapack.lib ..\..\lib\Release\blas.lib "/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -E make_directory C:/mumps/lapack-3.6.1/lib/Release&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="MinSizeRel|Win32" OutputDirectory="C:\mumps\lapack-3.6.1\bin\MinSizeRel" IntermediateDirectory="xeigtsts.dir\MinSizeRel" TargetName="xeigtsts">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1" SuppressStartupBanner="true" Optimization="optimizeMinSpace" Preprocess="preprocessYes" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;" ModulePath=".\$(ConfigurationName)" AssemblerListingLocation="MinSizeRel/" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLinkerTool" AdditionalOptions="/machine:X86" OutputFile="C:\mumps\lapack-3.6.1\bin\MinSizeRel\xeigtsts.exe" Version="0.0" LinkIncremental="linkIncrementalNo" LinkLibraryDependencies="false" ProgramDatabaseFile="C:\mumps\lapack-3.6.1\bin\MinSizeRel/xeigtsts.pdb" SubSystem="subSystemConsole" ImportLibrary="C:\mumps\lapack-3.6.1\lib\MinSizeRel\xeigtsts.lib" AdditionalDependencies="$(NOINHERIT) user32.lib ..\..\lib\MinSizeRel\tmglib.lib ..\..\lib\MinSizeRel\lapack.lib ..\..\lib\MinSizeRel\blas.lib "/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -E make_directory C:/mumps/lapack-3.6.1/lib/MinSizeRel&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="RelWithDebInfo|Win32" OutputDirectory="C:\mumps\lapack-3.6.1\bin\RelWithDebInfo" IntermediateDirectory="xeigtsts.dir\RelWithDebInfo" TargetName="xeigtsts">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1 /O2" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Preprocess="preprocessYes" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;" ModulePath=".\$(ConfigurationName)" AssemblerListingLocation="RelWithDebInfo/" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLinkerTool" AdditionalOptions="/machine:X86 /debug /INCREMENTAL" OutputFile="C:\mumps\lapack-3.6.1\bin\RelWithDebInfo\xeigtsts.exe" Version="0.0" LinkLibraryDependencies="false" GenerateDebugInformation="true" ProgramDatabaseFile="C:\mumps\lapack-3.6.1\bin\RelWithDebInfo/xeigtsts.pdb" SubSystem="subSystemConsole" ImportLibrary="C:\mumps\lapack-3.6.1\lib\RelWithDebInfo\xeigtsts.lib" AdditionalDependencies="$(NOINHERIT) user32.lib ..\..\lib\RelWithDebInfo\tmglib.lib ..\..\lib\RelWithDebInfo\lapack.lib ..\..\lib\RelWithDebInfo\blas.lib "/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -E make_directory C:/mumps/lapack-3.6.1/lib/RelWithDebInfo&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Source Files">
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\alahdg.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\alareq.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\alasum.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\alasvm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\chkxer.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\ilaenv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sbdt01.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sbdt02.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sbdt03.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sbdt04.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sbdt05.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\schkbb.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\schkbd.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\schkbk.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\schkbl.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\schkec.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\schkee.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\schkgg.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\schkgk.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\schkgl.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\schkhs.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\schksb.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\schkst.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sckcsd.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sckglm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sckgqr.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sckgsv.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\scklse.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\scsdts.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sdrges.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sdrges3.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sdrgev.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sdrgev3.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sdrgsx.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sdrgvx.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sdrvbd.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sdrves.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sdrvev.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sdrvsg.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sdrvst.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sdrvsx.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sdrvvx.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\INSTALL\second_EXT_ETIME.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\serrbd.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\serrec.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\serred.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\serrgg.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\serrhs.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\serrst.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sget02.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sget10.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sget22.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sget23.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sget24.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sget31.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sget32.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sget33.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sget34.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sget35.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sget36.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sget37.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sget38.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sget39.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sget51.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sget52.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sget53.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sget54.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sglmts.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sgqrts.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sgrqts.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sgsvts3.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\shst01.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\slafts.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\slahd2.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\slarfy.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\slarhs.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\slasum.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\slatb9.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\slatm4.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\slctes.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\slctsx.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\slsets.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sort01.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sort03.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\ssbt21.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\ssgt01.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sslect.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sspt21.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sstech.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sstect.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sstt21.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\sstt22.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\ssvdch.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\ssvdct.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\ssxt1.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\ssyt21.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\ssyt22.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\xerbla.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\xlaenv.f"/></Filter>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\EIG\CMakeLists.txt">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/mumps/lapack-3.6.1 -BC:/mumps/lapack-3.6.1 --check-stamp-file C:/mumps/lapack-3.6.1/TESTING/EIG/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/mumps/lapack-3.6.1/TESTING/EIG/CMakeLists.txt" Outputs="C:\mumps\lapack-3.6.1\TESTING\EIG\CMakeFiles\generate.stamp" AdditionalDependencies="C:\mumps\lapack-3.6.1\TESTING\EIG\CMakeLists.txt;C:\mumps\lapack-3.6.1\TESTING\EIG\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/mumps/lapack-3.6.1 -BC:/mumps/lapack-3.6.1 --check-stamp-file C:/mumps/lapack-3.6.1/TESTING/EIG/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/mumps/lapack-3.6.1/TESTING/EIG/CMakeLists.txt" Outputs="C:\mumps\lapack-3.6.1\TESTING\EIG\CMakeFiles\generate.stamp" AdditionalDependencies="C:\mumps\lapack-3.6.1\TESTING\EIG\CMakeLists.txt;C:\mumps\lapack-3.6.1\TESTING\EIG\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/mumps/lapack-3.6.1 -BC:/mumps/lapack-3.6.1 --check-stamp-file C:/mumps/lapack-3.6.1/TESTING/EIG/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/mumps/lapack-3.6.1/TESTING/EIG/CMakeLists.txt" Outputs="C:\mumps\lapack-3.6.1\TESTING\EIG\CMakeFiles\generate.stamp" AdditionalDependencies="C:\mumps\lapack-3.6.1\TESTING\EIG\CMakeLists.txt;C:\mumps\lapack-3.6.1\TESTING\EIG\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/mumps/lapack-3.6.1 -BC:/mumps/lapack-3.6.1 --check-stamp-file C:/mumps/lapack-3.6.1/TESTING/EIG/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/mumps/lapack-3.6.1/TESTING/EIG/CMakeLists.txt" Outputs="C:\mumps\lapack-3.6.1\TESTING\EIG\CMakeFiles\generate.stamp" AdditionalDependencies="C:\mumps\lapack-3.6.1\TESTING\EIG\CMakeLists.txt;C:\mumps\lapack-3.6.1\TESTING\EIG\CMakeLists.txt;"/></FileConfiguration></File></Files>
+	<Globals/></VisualStudioProject>

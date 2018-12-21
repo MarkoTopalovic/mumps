@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (MUMPS_COMMON_OBJ_C.vcxproj, PORD_C.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Building Custom Rule C:/mumps/MUMPS_5.1.2/CMakeLists.txt
+  CMake does not need to re-run because C:/mumps/MUMPS_5.1.2/CMakeFiles/generate.stamp is up-to-date.
+  mpic.c
+  elapse.c
+  Generating Code...
+  LIBMPISEQ_C.vcxproj -> C:\mumps\MUMPS_5.1.2\Debug\LIBMPISEQ_C.lib

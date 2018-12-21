@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/mumps/MUMPS_5.1.2/CMakeLists.txt
+  CMake does not need to re-run because C:/mumps/MUMPS_5.1.2/CMakeFiles/generate.stamp is up-to-date.
+  mpic.c
+  elapse.c
+  Generating Code...
+  LIBMPISEQ_C.vcxproj -> C:\mumps\MUMPS_5.1.2\LIBMPISEQ_C.dir\Debug\LIBMPISEQ_C.lib

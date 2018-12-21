@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\mumps\lapack-3.6.1\CMakeFiles\f2f5a0c4b72471292a7784d7c815d0f4\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{ABCA445B-82D2-3FBE-8C2B-3289EA6C0EC0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

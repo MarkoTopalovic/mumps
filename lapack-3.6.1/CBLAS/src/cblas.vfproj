@@ -1,0 +1,1382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectType="typeStaticLibrary" ProjectCreator="Intel Fortran" Keyword="Static Library" Version="11.0" ProjectIdGuid="{05CEC7A7-9158-3EF9-8C46-F7036A82A98F}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32" OutputDirectory="C:\mumps\lapack-3.6.1\lib\Debug" IntermediateDirectory="cblas.dir\Debug" TargetName="cblas" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Preprocess="preprocessYes" AdditionalIncludeDirectories="C:\mumps\lapack-3.6.1\CBLAS\include;C:\mumps\lapack-3.6.1\CBLAS\include/$(ConfigurationName)" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;" ModulePath=".\$(ConfigurationName)" AssemblerListingLocation="Debug/" RuntimeLibrary="rtMultiThreadedDebugDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" AdditionalOptions="/machine:X86" OutputFile="C:\mumps\lapack-3.6.1\lib\Debug\cblas.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;" AdditionalIncludeDirectories="C:\mumps\lapack-3.6.1\CBLAS\include"/>
+				<Tool Name="VFMidlTool" AdditionalIncludeDirectories="C:\mumps\lapack-3.6.1\CBLAS\include" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="Release|Win32" OutputDirectory="C:\mumps\lapack-3.6.1\lib\Release" IntermediateDirectory="cblas.dir\Release" TargetName="cblas" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1 /O2" SuppressStartupBanner="true" Preprocess="preprocessYes" AdditionalIncludeDirectories="C:\mumps\lapack-3.6.1\CBLAS\include;C:\mumps\lapack-3.6.1\CBLAS\include/$(ConfigurationName)" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;" ModulePath=".\$(ConfigurationName)" AssemblerListingLocation="Release/" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" AdditionalOptions="/machine:X86" OutputFile="C:\mumps\lapack-3.6.1\lib\Release\cblas.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;" AdditionalIncludeDirectories="C:\mumps\lapack-3.6.1\CBLAS\include"/>
+				<Tool Name="VFMidlTool" AdditionalIncludeDirectories="C:\mumps\lapack-3.6.1\CBLAS\include" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="MinSizeRel|Win32" OutputDirectory="C:\mumps\lapack-3.6.1\lib\MinSizeRel" IntermediateDirectory="cblas.dir\MinSizeRel" TargetName="cblas" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1" SuppressStartupBanner="true" Optimization="optimizeMinSpace" Preprocess="preprocessYes" AdditionalIncludeDirectories="C:\mumps\lapack-3.6.1\CBLAS\include;C:\mumps\lapack-3.6.1\CBLAS\include/$(ConfigurationName)" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;" ModulePath=".\$(ConfigurationName)" AssemblerListingLocation="MinSizeRel/" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" AdditionalOptions="/machine:X86" OutputFile="C:\mumps\lapack-3.6.1\lib\MinSizeRel\cblas.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;" AdditionalIncludeDirectories="C:\mumps\lapack-3.6.1\CBLAS\include"/>
+				<Tool Name="VFMidlTool" AdditionalIncludeDirectories="C:\mumps\lapack-3.6.1\CBLAS\include" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="RelWithDebInfo|Win32" OutputDirectory="C:\mumps\lapack-3.6.1\lib\RelWithDebInfo" IntermediateDirectory="cblas.dir\RelWithDebInfo" TargetName="cblas" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1 /O2" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Preprocess="preprocessYes" AdditionalIncludeDirectories="C:\mumps\lapack-3.6.1\CBLAS\include;C:\mumps\lapack-3.6.1\CBLAS\include/$(ConfigurationName)" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;" ModulePath=".\$(ConfigurationName)" AssemblerListingLocation="RelWithDebInfo/" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" AdditionalOptions="/machine:X86" OutputFile="C:\mumps\lapack-3.6.1\lib\RelWithDebInfo\cblas.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;" AdditionalIncludeDirectories="C:\mumps\lapack-3.6.1\CBLAS\include"/>
+				<Tool Name="VFMidlTool" AdditionalIncludeDirectories="C:\mumps\lapack-3.6.1\CBLAS\include" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Source Files">
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_caxpy.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_ccopy.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_cdotc_sub.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_cdotu_sub.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_cgbmv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_cgemm.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_cgemv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_cgerc.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_cgeru.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_chbmv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_chemm.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_chemv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_cher.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_cher2.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_cher2k.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_cherk.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_chpmv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_chpr.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_chpr2.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_cscal.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_csscal.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_cswap.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_csymm.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_csyr2k.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_csyrk.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_ctbmv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_ctbsv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_ctpmv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_ctpsv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_ctrmm.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_ctrmv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_ctrsm.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_ctrsv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dasum.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_daxpy.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dcopy.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_ddot.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dgbmv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dgemm.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dgemv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dger.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dnrm2.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_drot.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_drotg.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_drotm.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_drotmg.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dsbmv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dscal.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dsdot.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dspmv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dspr.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dspr2.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dswap.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dsymm.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dsymv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dsyr.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dsyr2.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dsyr2k.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dsyrk.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dtbmv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dtbsv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dtpmv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dtpsv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dtrmm.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dtrmv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dtrsm.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dtrsv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dzasum.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_dznrm2.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_globals.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_icamax.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_idamax.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_isamax.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_izamax.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_sasum.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_saxpy.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_scasum.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_scnrm2.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_scopy.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_sdot.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_sdsdot.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_sgbmv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_sgemm.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_sgemv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_sger.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_snrm2.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_srot.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_srotg.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_srotm.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_srotmg.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_ssbmv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_sscal.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_sspmv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_sspr.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_sspr2.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_sswap.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_ssymm.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_ssymv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_ssyr.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_ssyr2.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_ssyr2k.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_ssyrk.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_stbmv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_stbsv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_stpmv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_stpsv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_strmm.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_strmv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_strsm.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_strsv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_xerbla.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_zaxpy.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_zcopy.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_zdotc_sub.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_zdotu_sub.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_zdscal.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_zgbmv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_zgemm.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_zgemv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_zgerc.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_zgeru.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_zhbmv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_zhemm.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_zhemv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_zher.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_zher2.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_zher2k.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_zherk.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_zhpmv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_zhpr.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_zhpr2.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_zscal.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_zswap.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_zsymm.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_zsyr2k.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_zsyrk.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_ztbmv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_ztbsv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_ztpmv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_ztpsv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_ztrmm.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_ztrmv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_ztrsm.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cblas_ztrsv.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cdotcsub.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\cdotusub.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\dasumsub.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\ddotsub.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\dnrm2sub.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\dsdotsub.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\dzasumsub.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\dznrm2sub.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\icamaxsub.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\idamaxsub.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\isamaxsub.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\izamaxsub.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\sasumsub.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\scasumsub.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\scnrm2sub.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\sdotsub.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\sdsdotsub.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\snrm2sub.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\xerbla.c">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/TC"/></FileConfiguration></File>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\zdotcsub.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\zdotusub.f"/></Filter>
+		<File RelativePath="C:\mumps\lapack-3.6.1\CBLAS\src\CMakeLists.txt">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/mumps/lapack-3.6.1 -BC:/mumps/lapack-3.6.1 --check-stamp-file C:/mumps/lapack-3.6.1/CBLAS/src/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/mumps/lapack-3.6.1/CBLAS/src/CMakeLists.txt" Outputs="C:\mumps\lapack-3.6.1\CBLAS\src\CMakeFiles\generate.stamp" AdditionalDependencies="C:\mumps\lapack-3.6.1\CBLAS\src\CMakeLists.txt;C:\mumps\lapack-3.6.1\CBLAS\src\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/mumps/lapack-3.6.1 -BC:/mumps/lapack-3.6.1 --check-stamp-file C:/mumps/lapack-3.6.1/CBLAS/src/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/mumps/lapack-3.6.1/CBLAS/src/CMakeLists.txt" Outputs="C:\mumps\lapack-3.6.1\CBLAS\src\CMakeFiles\generate.stamp" AdditionalDependencies="C:\mumps\lapack-3.6.1\CBLAS\src\CMakeLists.txt;C:\mumps\lapack-3.6.1\CBLAS\src\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/mumps/lapack-3.6.1 -BC:/mumps/lapack-3.6.1 --check-stamp-file C:/mumps/lapack-3.6.1/CBLAS/src/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/mumps/lapack-3.6.1/CBLAS/src/CMakeLists.txt" Outputs="C:\mumps\lapack-3.6.1\CBLAS\src\CMakeFiles\generate.stamp" AdditionalDependencies="C:\mumps\lapack-3.6.1\CBLAS\src\CMakeLists.txt;C:\mumps\lapack-3.6.1\CBLAS\src\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/mumps/lapack-3.6.1 -BC:/mumps/lapack-3.6.1 --check-stamp-file C:/mumps/lapack-3.6.1/CBLAS/src/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/mumps/lapack-3.6.1/CBLAS/src/CMakeLists.txt" Outputs="C:\mumps\lapack-3.6.1\CBLAS\src\CMakeFiles\generate.stamp" AdditionalDependencies="C:\mumps\lapack-3.6.1\CBLAS\src\CMakeLists.txt;C:\mumps\lapack-3.6.1\CBLAS\src\CMakeLists.txt;"/></FileConfiguration></File></Files>
+	<Globals/></VisualStudioProject>

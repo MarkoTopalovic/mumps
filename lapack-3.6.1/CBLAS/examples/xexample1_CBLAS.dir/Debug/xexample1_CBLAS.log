@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/mumps/lapack-3.6.1/CBLAS/examples/CMakeLists.txt
+  CMake does not need to re-run because C:/mumps/lapack-3.6.1/CBLAS/examples/CMakeFiles/generate.stamp is up-to-date.
+  cblas_example1.c
+cblas_example1.obj : error LNK2019: unresolved external symbol _cblas_dgemv referenced in function _main
+C:\mumps\lapack-3.6.1\bin\Debug\xexample1_CBLAS.exe : fatal error LNK1120: 1 unresolved externals

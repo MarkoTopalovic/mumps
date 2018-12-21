@@ -1,0 +1,31 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (PORD_C.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Building Custom Rule C:/mumps/MUMPS_5.1.2/CMakeLists.txt
+  CMake does not need to re-run because C:/mumps/MUMPS_5.1.2/CMakeFiles/generate.stamp is up-to-date.
+  mumps_c.c
+  mumps_common.c
+  mumps_size.c
+  mumps_io.c
+C:\mumps\MUMPS_5.1.2\src\mumps_io.c(37): warning C4101: 'flag_loc': unreferenced local variable
+C:\mumps\MUMPS_5.1.2\src\mumps_io.c(149): warning C4101: 'ierr_loc': unreferenced local variable
+C:\mumps\MUMPS_5.1.2\src\mumps_io.c(407): warning C4101: 'ierr_loc': unreferenced local variable
+C:\mumps\MUMPS_5.1.2\src\mumps_io.c(539): warning C4101: 'ierr_loc': unreferenced local variable
+  mumps_io_basic.c
+C:\mumps\MUMPS_5.1.2\src\mumps_io_basic.c(805): warning C4101: 'ret_code': unreferenced local variable
+  mumps_io_thread.c
+  mumps_io_err.c
+C:\mumps\MUMPS_5.1.2\src\mumps_io_err.c(129): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+C:\mumps\MUMPS_5.1.2\src\mumps_io_err.c(133): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+  mumps_thread.c
+  mumps_save_restore_C.c
+  mumps_numa.c
+  mumps_pord.c
+  mumps_metis.c
+  mumps_metis64.c
+  mumps_metis_int.c
+  mumps_scotch.c
+  mumps_scotch64.c
+  mumps_scotch_int.c
+  Generating Code...
+  MUMPS_COMMON_OBJ_C.vcxproj -> C:\mumps\MUMPS_5.1.2\Debug\MUMPS_COMMON_OBJ_C.lib

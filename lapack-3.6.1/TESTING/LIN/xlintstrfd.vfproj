@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{F73E1C82-AF27-3FD4-86F9-A5311DCE78E2}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32" OutputDirectory="C:\mumps\lapack-3.6.1\bin\Debug" IntermediateDirectory="xlintstrfd.dir\Debug" TargetName="xlintstrfd">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Preprocess="preprocessYes" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;" ModulePath=".\$(ConfigurationName)" AssemblerListingLocation="Debug/" RuntimeLibrary="rtMultiThreadedDebugDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLinkerTool" AdditionalOptions="/machine:X86 /debug /INCREMENTAL" OutputFile="C:\mumps\lapack-3.6.1\bin\Debug\xlintstrfd.exe" Version="0.0" LinkLibraryDependencies="false" GenerateDebugInformation="true" ProgramDatabaseFile="C:\mumps\lapack-3.6.1\bin\Debug/xlintstrfd.pdb" SubSystem="subSystemConsole" ImportLibrary="C:\mumps\lapack-3.6.1\lib\Debug\xlintstrfd.lib" AdditionalDependencies="$(NOINHERIT) user32.lib ..\..\lib\Debug\tmglib.lib ..\..\lib\Debug\lapack.lib ..\..\lib\Debug\blas.lib "/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -E make_directory C:/mumps/lapack-3.6.1/lib/Debug&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="Release|Win32" OutputDirectory="C:\mumps\lapack-3.6.1\bin\Release" IntermediateDirectory="xlintstrfd.dir\Release" TargetName="xlintstrfd">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1 /O2" SuppressStartupBanner="true" Preprocess="preprocessYes" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;" ModulePath=".\$(ConfigurationName)" AssemblerListingLocation="Release/" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLinkerTool" AdditionalOptions="/machine:X86" OutputFile="C:\mumps\lapack-3.6.1\bin\Release\xlintstrfd.exe" Version="0.0" LinkIncremental="linkIncrementalNo" LinkLibraryDependencies="false" ProgramDatabaseFile="C:\mumps\lapack-3.6.1\bin\Release/xlintstrfd.pdb" SubSystem="subSystemConsole" ImportLibrary="C:\mumps\lapack-3.6.1\lib\Release\xlintstrfd.lib" AdditionalDependencies="$(NOINHERIT) user32.lib ..\..\lib\Release\tmglib.lib ..\..\lib\Release\lapack.lib ..\..\lib\Release\blas.lib "/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -E make_directory C:/mumps/lapack-3.6.1/lib/Release&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="MinSizeRel|Win32" OutputDirectory="C:\mumps\lapack-3.6.1\bin\MinSizeRel" IntermediateDirectory="xlintstrfd.dir\MinSizeRel" TargetName="xlintstrfd">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1" SuppressStartupBanner="true" Optimization="optimizeMinSpace" Preprocess="preprocessYes" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;" ModulePath=".\$(ConfigurationName)" AssemblerListingLocation="MinSizeRel/" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLinkerTool" AdditionalOptions="/machine:X86" OutputFile="C:\mumps\lapack-3.6.1\bin\MinSizeRel\xlintstrfd.exe" Version="0.0" LinkIncremental="linkIncrementalNo" LinkLibraryDependencies="false" ProgramDatabaseFile="C:\mumps\lapack-3.6.1\bin\MinSizeRel/xlintstrfd.pdb" SubSystem="subSystemConsole" ImportLibrary="C:\mumps\lapack-3.6.1\lib\MinSizeRel\xlintstrfd.lib" AdditionalDependencies="$(NOINHERIT) user32.lib ..\..\lib\MinSizeRel\tmglib.lib ..\..\lib\MinSizeRel\lapack.lib ..\..\lib\MinSizeRel\blas.lib "/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -E make_directory C:/mumps/lapack-3.6.1/lib/MinSizeRel&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="RelWithDebInfo|Win32" OutputDirectory="C:\mumps\lapack-3.6.1\bin\RelWithDebInfo" IntermediateDirectory="xlintstrfd.dir\RelWithDebInfo" TargetName="xlintstrfd">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1 /O2" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Preprocess="preprocessYes" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;" ModulePath=".\$(ConfigurationName)" AssemblerListingLocation="RelWithDebInfo/" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLinkerTool" AdditionalOptions="/machine:X86 /debug /INCREMENTAL" OutputFile="C:\mumps\lapack-3.6.1\bin\RelWithDebInfo\xlintstrfd.exe" Version="0.0" LinkLibraryDependencies="false" GenerateDebugInformation="true" ProgramDatabaseFile="C:\mumps\lapack-3.6.1\bin\RelWithDebInfo/xlintstrfd.pdb" SubSystem="subSystemConsole" ImportLibrary="C:\mumps\lapack-3.6.1\lib\RelWithDebInfo\xlintstrfd.lib" AdditionalDependencies="$(NOINHERIT) user32.lib ..\..\lib\RelWithDebInfo\tmglib.lib ..\..\lib\RelWithDebInfo\lapack.lib ..\..\lib\RelWithDebInfo\blas.lib "/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -E make_directory C:/mumps/lapack-3.6.1/lib/RelWithDebInfo&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Source Files">
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\aladhd.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\alaerh.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\alahd.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\alasvm.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\chkxer.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dchkrfp.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\ddrvrf1.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\ddrvrf2.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\ddrvrf3.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\ddrvrf4.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\ddrvrfp.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\derrrfp.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dget04.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dlarhs.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dlatb4.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dpot01.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dpot02.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\dpot03.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\INSTALL\dsecnd_EXT_ETIME.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\xerbla.f"/></Filter>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeLists.txt">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/mumps/lapack-3.6.1 -BC:/mumps/lapack-3.6.1 --check-stamp-file C:/mumps/lapack-3.6.1/TESTING/LIN/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/mumps/lapack-3.6.1/TESTING/LIN/CMakeLists.txt" Outputs="C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeFiles\generate.stamp" AdditionalDependencies="C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeLists.txt;C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/mumps/lapack-3.6.1 -BC:/mumps/lapack-3.6.1 --check-stamp-file C:/mumps/lapack-3.6.1/TESTING/LIN/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/mumps/lapack-3.6.1/TESTING/LIN/CMakeLists.txt" Outputs="C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeFiles\generate.stamp" AdditionalDependencies="C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeLists.txt;C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/mumps/lapack-3.6.1 -BC:/mumps/lapack-3.6.1 --check-stamp-file C:/mumps/lapack-3.6.1/TESTING/LIN/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/mumps/lapack-3.6.1/TESTING/LIN/CMakeLists.txt" Outputs="C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeFiles\generate.stamp" AdditionalDependencies="C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeLists.txt;C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/mumps/lapack-3.6.1 -BC:/mumps/lapack-3.6.1 --check-stamp-file C:/mumps/lapack-3.6.1/TESTING/LIN/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/mumps/lapack-3.6.1/TESTING/LIN/CMakeLists.txt" Outputs="C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeFiles\generate.stamp" AdditionalDependencies="C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeLists.txt;C:\mumps\lapack-3.6.1\TESTING\LIN\CMakeLists.txt;"/></FileConfiguration></File></Files>
+	<Globals/></VisualStudioProject>

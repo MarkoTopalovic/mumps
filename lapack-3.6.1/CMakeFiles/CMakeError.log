@@ -1,0 +1,300 @@
+Fortran EXT_ETIME_ does not exist. 
+ Change Dir: C:/mumps/lapack-3.6.1/INSTALL
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.com" "TIMING.sln" "/build" "Debug" "/project" "secondtst_EXT_ETIME_"
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+1>------ Build started: Project: secondtst_EXT_ETIME_, Configuration: Debug Win32 ------
+1>Compiling with Intel(R) Visual Fortran Compiler 16.0 [IA-32]...
+1>second_EXT_ETIME_.f
+1>secondtst.f
+1>Compiling manifest to resources...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.3.9600.17336
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Linking...
+1>Microsoft (R) Incremental Linker Version 14.00.24215.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/OUT:C:\mumps\lapack-3.6.1\INSTALL\Debug\secondtst_EXT_ETIME_.exe
+1>/VERSION:0.0
+1>/MANIFEST
+1>/MANIFESTFILE:secondtst_EXT_ETIME_.dir\Debug\secondtst_EXT_ETIME_.exe.intermediate.manifest
+1>"/MANIFESTUAC:level='asInvoker' uiAccess='false'"
+1>/DEBUG
+1>/PDB:C:\mumps\lapack-3.6.1\INSTALL\Debug/secondtst_EXT_ETIME_.pdb
+1>/SUBSYSTEM:CONSOLE
+1>/IMPLIB:C:\mumps\lapack-3.6.1\INSTALL\Debug\secondtst_EXT_ETIME_.lib
+1>user32.lib
+1>/machine:X86
+1>/debug
+1>/INCREMENTAL
+1>secondtst_EXT_ETIME_.dir\Debug\second_EXT_ETIME_.obj
+1>secondtst_EXT_ETIME_.dir\Debug\secondtst.obj
+1>secondtst_EXT_ETIME_.dir\Debug\secondtst_EXT_ETIME_.exe.embed.manifest.res
+1>second_EXT_ETIME_.obj : error LNK2019: unresolved external symbol _ETIME_ referenced in function _SECOND
+1>C:\mumps\lapack-3.6.1\INSTALL\Debug\secondtst_EXT_ETIME_.exe : fatal error LNK1120: 1 unresolved externals
+1>
+1>Build log written to  "file://C:\mumps\lapack-3.6.1\INSTALL\secondtst_EXT_ETIME_.dir\Debug\BuildLog.htm"
+1>secondtst_EXT_ETIME_ - 2 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 1 up-to-date, 0 skipped ==========
+ 
+Fortran INT_ETIME does not exist. 
+ Change Dir: C:/mumps/lapack-3.6.1/INSTALL
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.com" "TIMING.sln" "/build" "Debug" "/project" "secondtst_INT_ETIME"
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+1>------ Build started: Project: secondtst_INT_ETIME, Configuration: Debug Win32 ------
+1>Compiling with Intel(R) Visual Fortran Compiler 16.0 [IA-32]...
+1>second_INT_ETIME.f
+1>C:\mumps\lapack-3.6.1\INSTALL\second_INT_ETIME.f(53): error #6407: This symbolic name is not an intrinsic function name or an intrinsic subroutine name.   [ETIME]
+1>compilation aborted for C:\mumps\lapack-3.6.1\INSTALL\second_INT_ETIME.f (code 1)
+1>secondtst.f
+1>
+1>Build log written to  "file://C:\mumps\lapack-3.6.1\INSTALL\secondtst_INT_ETIME.dir\Debug\BuildLog.htm"
+1>secondtst_INT_ETIME - 2 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 1 up-to-date, 0 skipped ==========
+ 
+Fortran EXT_ETIME_ does not exist. 
+ Change Dir: C:/mumps/lapack-3.6.1/INSTALL
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.com" "TIMING.sln" "/build" "Debug" "/project" "secondtst_EXT_ETIME_"
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+1>------ Build started: Project: secondtst_EXT_ETIME_, Configuration: Debug Win32 ------
+1>Compiling manifest to resources...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.3.9600.17336
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Linking...
+1>Microsoft (R) Incremental Linker Version 14.00.24215.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/OUT:C:\mumps\lapack-3.6.1\INSTALL\Debug\secondtst_EXT_ETIME_.exe
+1>/VERSION:0.0
+1>/MANIFEST
+1>/MANIFESTFILE:secondtst_EXT_ETIME_.dir\Debug\secondtst_EXT_ETIME_.exe.intermediate.manifest
+1>"/MANIFESTUAC:level='asInvoker' uiAccess='false'"
+1>/DEBUG
+1>/PDB:C:\mumps\lapack-3.6.1\INSTALL\Debug/secondtst_EXT_ETIME_.pdb
+1>/SUBSYSTEM:CONSOLE
+1>/IMPLIB:C:\mumps\lapack-3.6.1\INSTALL\Debug\secondtst_EXT_ETIME_.lib
+1>user32.lib
+1>/machine:X86
+1>/debug
+1>/INCREMENTAL
+1>secondtst_EXT_ETIME_.dir\Debug\secondtst.obj
+1>secondtst_EXT_ETIME_.dir\Debug\second_EXT_ETIME_.obj
+1>secondtst_EXT_ETIME_.dir\Debug\secondtst_EXT_ETIME_.exe.embed.manifest.res
+1>second_EXT_ETIME_.obj : error LNK2019: unresolved external symbol _ETIME_ referenced in function _SECOND
+1>C:\mumps\lapack-3.6.1\INSTALL\Debug\secondtst_EXT_ETIME_.exe : fatal error LNK1120: 1 unresolved externals
+1>
+1>Build log written to  "file://C:\mumps\lapack-3.6.1\INSTALL\secondtst_EXT_ETIME_.dir\Debug\BuildLog.htm"
+1>secondtst_EXT_ETIME_ - 2 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 1 up-to-date, 0 skipped ==========
+ 
+Fortran INT_ETIME does not exist. 
+ Change Dir: C:/mumps/lapack-3.6.1/INSTALL
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.com" "TIMING.sln" "/build" "Debug" "/project" "secondtst_INT_ETIME"
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+1>------ Build started: Project: secondtst_INT_ETIME, Configuration: Debug Win32 ------
+1>Compiling with Intel(R) Visual Fortran Compiler 16.0 [IA-32]...
+1>second_INT_ETIME.f
+1>C:\mumps\lapack-3.6.1\INSTALL\second_INT_ETIME.f(53): error #6407: This symbolic name is not an intrinsic function name or an intrinsic subroutine name.   [ETIME]
+1>compilation aborted for C:\mumps\lapack-3.6.1\INSTALL\second_INT_ETIME.f (code 1)
+1>
+1>Build log written to  "file://C:\mumps\lapack-3.6.1\INSTALL\secondtst_INT_ETIME.dir\Debug\BuildLog.htm"
+1>secondtst_INT_ETIME - 2 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 1 up-to-date, 0 skipped ==========
+ 
+Fortran EXT_ETIME_ does not exist. 
+ Change Dir: C:/mumps/lapack-3.6.1/INSTALL
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.com" "TIMING.sln" "/build" "Debug" "/project" "secondtst_EXT_ETIME_"
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+1>------ Build started: Project: secondtst_EXT_ETIME_, Configuration: Debug Win32 ------
+1>Compiling manifest to resources...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.3.9600.17336
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Linking...
+1>Microsoft (R) Incremental Linker Version 14.00.24215.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/OUT:C:\mumps\lapack-3.6.1\INSTALL\Debug\secondtst_EXT_ETIME_.exe
+1>/VERSION:0.0
+1>/MANIFEST
+1>/MANIFESTFILE:secondtst_EXT_ETIME_.dir\Debug\secondtst_EXT_ETIME_.exe.intermediate.manifest
+1>"/MANIFESTUAC:level='asInvoker' uiAccess='false'"
+1>/DEBUG
+1>/PDB:C:\mumps\lapack-3.6.1\INSTALL\Debug/secondtst_EXT_ETIME_.pdb
+1>/SUBSYSTEM:CONSOLE
+1>/IMPLIB:C:\mumps\lapack-3.6.1\INSTALL\Debug\secondtst_EXT_ETIME_.lib
+1>user32.lib
+1>/machine:X86
+1>/debug
+1>/INCREMENTAL
+1>secondtst_EXT_ETIME_.dir\Debug\secondtst.obj
+1>secondtst_EXT_ETIME_.dir\Debug\second_EXT_ETIME_.obj
+1>secondtst_EXT_ETIME_.dir\Debug\secondtst_EXT_ETIME_.exe.embed.manifest.res
+1>second_EXT_ETIME_.obj : error LNK2019: unresolved external symbol _ETIME_ referenced in function _SECOND
+1>C:\mumps\lapack-3.6.1\INSTALL\Debug\secondtst_EXT_ETIME_.exe : fatal error LNK1120: 1 unresolved externals
+1>
+1>Build log written to  "file://C:\mumps\lapack-3.6.1\INSTALL\secondtst_EXT_ETIME_.dir\Debug\BuildLog.htm"
+1>secondtst_EXT_ETIME_ - 2 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 1 up-to-date, 0 skipped ==========
+ 
+Fortran INT_ETIME does not exist. 
+ Change Dir: C:/mumps/lapack-3.6.1/INSTALL
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.com" "TIMING.sln" "/build" "Debug" "/project" "secondtst_INT_ETIME"
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+1>------ Build started: Project: secondtst_INT_ETIME, Configuration: Debug Win32 ------
+1>Compiling with Intel(R) Visual Fortran Compiler 16.0 [IA-32]...
+1>second_INT_ETIME.f
+1>C:\mumps\lapack-3.6.1\INSTALL\second_INT_ETIME.f(53): error #6407: This symbolic name is not an intrinsic function name or an intrinsic subroutine name.   [ETIME]
+1>compilation aborted for C:\mumps\lapack-3.6.1\INSTALL\second_INT_ETIME.f (code 1)
+1>
+1>Build log written to  "file://C:\mumps\lapack-3.6.1\INSTALL\secondtst_INT_ETIME.dir\Debug\BuildLog.htm"
+1>secondtst_INT_ETIME - 2 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 1 up-to-date, 0 skipped ==========
+ 
+Fortran EXT_ETIME_ does not exist. 
+ Change Dir: C:/mumps/lapack-3.6.1/INSTALL
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.com" "TIMING.sln" "/build" "Debug" "/project" "secondtst_EXT_ETIME_"
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+1>------ Build started: Project: secondtst_EXT_ETIME_, Configuration: Debug Win32 ------
+1>Compiling manifest to resources...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.3.9600.17336
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Linking...
+1>Microsoft (R) Incremental Linker Version 14.00.24215.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/OUT:C:\mumps\lapack-3.6.1\INSTALL\Debug\secondtst_EXT_ETIME_.exe
+1>/VERSION:0.0
+1>/MANIFEST
+1>/MANIFESTFILE:secondtst_EXT_ETIME_.dir\Debug\secondtst_EXT_ETIME_.exe.intermediate.manifest
+1>"/MANIFESTUAC:level='asInvoker' uiAccess='false'"
+1>/DEBUG
+1>/PDB:C:\mumps\lapack-3.6.1\INSTALL\Debug/secondtst_EXT_ETIME_.pdb
+1>/SUBSYSTEM:CONSOLE
+1>/IMPLIB:C:\mumps\lapack-3.6.1\INSTALL\Debug\secondtst_EXT_ETIME_.lib
+1>user32.lib
+1>/machine:X86
+1>/debug
+1>/INCREMENTAL
+1>secondtst_EXT_ETIME_.dir\Debug\second_EXT_ETIME_.obj
+1>secondtst_EXT_ETIME_.dir\Debug\secondtst.obj
+1>secondtst_EXT_ETIME_.dir\Debug\secondtst_EXT_ETIME_.exe.embed.manifest.res
+1>second_EXT_ETIME_.obj : error LNK2019: unresolved external symbol _ETIME_ referenced in function _SECOND
+1>C:\mumps\lapack-3.6.1\INSTALL\Debug\secondtst_EXT_ETIME_.exe : fatal error LNK1120: 1 unresolved externals
+1>
+1>Build log written to  "file://C:\mumps\lapack-3.6.1\INSTALL\secondtst_EXT_ETIME_.dir\Debug\BuildLog.htm"
+1>secondtst_EXT_ETIME_ - 2 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 1 up-to-date, 0 skipped ==========
+ 
+Fortran INT_ETIME does not exist. 
+ Change Dir: C:/mumps/lapack-3.6.1/INSTALL
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.com" "TIMING.sln" "/build" "Debug" "/project" "secondtst_INT_ETIME"
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+1>------ Build started: Project: secondtst_INT_ETIME, Configuration: Debug Win32 ------
+1>Compiling with Intel(R) Visual Fortran Compiler 16.0 [IA-32]...
+1>second_INT_ETIME.f
+1>C:\mumps\lapack-3.6.1\INSTALL\second_INT_ETIME.f(53): error #6407: This symbolic name is not an intrinsic function name or an intrinsic subroutine name.   [ETIME]
+1>compilation aborted for C:\mumps\lapack-3.6.1\INSTALL\second_INT_ETIME.f (code 1)
+1>
+1>Build log written to  "file://C:\mumps\lapack-3.6.1\INSTALL\secondtst_INT_ETIME.dir\Debug\BuildLog.htm"
+1>secondtst_INT_ETIME - 2 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 1 up-to-date, 0 skipped ==========
+ 

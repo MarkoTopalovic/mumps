@@ -1,0 +1,698 @@
+The system is: Windows - 10.0.14393 - AMD64
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+1>------ Build started: Project: CompilerIdFortran, Configuration: Debug Win32 ------
+1>Compiling with Intel(R) Visual Fortran Compiler 16.0 [IA-32]...
+1>CMakeFortranCompilerId.F
+1>Intel(R) Visual Fortran Compiler for applications running on IA-32, Version 16.0 Build 20160415
+1>Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+1>Linking...
+1>Microsoft (R) Incremental Linker Version 14.00.24215.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/OUT:.\CompilerIdFortran.exe
+1>/INCREMENTAL:NO
+1>/MANIFEST
+1>/MANIFESTFILE:Debug\CompilerIdFortran.exe.intermediate.manifest
+1>"/MANIFESTUAC:level='asInvoker' uiAccess='false'"
+1>/DEBUG
+1>/PDB:C:\mumps\lapack-3.6.1\CMakeFiles\3.13.2\CompilerIdFortran\CompilerIdFortran.pdb
+1>/SUBSYSTEM:CONSOLE
+1>/IMPLIB:C:\mumps\lapack-3.6.1\CMakeFiles\3.13.2\CompilerIdFortran\CompilerIdFortran.lib
+1>Debug\CMakeFortranCompilerId.obj
+1>Embedding manifest...
+1>Performing Post-Build Event...
+1>CMAKE_Fortran_COMPILER=C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016\windows\bin\ia32\ifort.exe
+1>
+1>Build log written to  "file://C:\mumps\lapack-3.6.1\CMakeFiles\3.13.2\CompilerIdFortran\Debug\BuildLog.htm"
+1>CompilerIdFortran - 0 error(s), 0 warning(s)
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "CompilerIdFortran.exe"
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "CompilerIdFortran.pdb"
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "CompilerIdFortran.u2d"
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "CompilerIdFortran.vfproj"
+
+The Fortran compiler identification is Intel, found in "C:/mumps/lapack-3.6.1/CMakeFiles/3.13.2/CompilerIdFortran/CompilerIdFortran.exe"
+
+Determining if the Fortran compiler works passed with the following output:
+Change Dir: C:/mumps/lapack-3.6.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.com" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTC_d56c1"
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+1>------ Build started: Project: cmTC_d56c1, Configuration: Debug Win32 ------
+1>Compiling with Intel(R) Visual Fortran Compiler 16.0 [IA-32]...
+1>testFortranCompiler.f
+1>Compiling manifest to resources...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.3.9600.17336
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Linking...
+1>Microsoft (R) Incremental Linker Version 14.00.24215.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/OUT:C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\Debug\cmTC_d56c1.exe
+1>/VERSION:0.0
+1>/MANIFEST
+1>/MANIFESTFILE:cmTC_d56c1.dir\Debug\cmTC_d56c1.exe.intermediate.manifest
+1>"/MANIFESTUAC:level='asInvoker' uiAccess='false'"
+1>/DEBUG
+1>/PDB:C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\Debug/cmTC_d56c1.pdb
+1>/SUBSYSTEM:CONSOLE
+1>/IMPLIB:C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\Debug\cmTC_d56c1.lib
+1>user32.lib
+1>/machine:X86
+1>/debug
+1>/INCREMENTAL
+1>cmTC_d56c1.dir\Debug\testFortranCompiler.obj
+1>cmTC_d56c1.dir\Debug\cmTC_d56c1.exe.embed.manifest.res
+1>Embedding manifest...
+1>Microsoft (R) Manifest Tool version 6.3.9600.17336
+1>Copyright (c) Microsoft Corporation 2012.
+1>All rights reserved.
+1>
+1>Build log written to  "file://C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\cmTC_d56c1.dir\Debug\BuildLog.htm"
+1>cmTC_d56c1 - 0 error(s), 0 warning(s)
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: C:/mumps/lapack-3.6.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.com" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTC_1827a"
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+1>------ Build started: Project: cmTC_1827a, Configuration: Debug Win32 ------
+1>Compiling with Intel(R) Visual Fortran Compiler 16.0 [IA-32]...
+1>CMakeFortranCompilerABI.F
+1>Compiling manifest to resources...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.3.9600.17336
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Linking...
+1>Microsoft (R) Incremental Linker Version 14.00.24215.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/OUT:C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\Debug\cmTC_1827a.exe
+1>/VERSION:0.0
+1>/MANIFEST
+1>/MANIFESTFILE:cmTC_1827a.dir\Debug\cmTC_1827a.exe.intermediate.manifest
+1>"/MANIFESTUAC:level='asInvoker' uiAccess='false'"
+1>/DEBUG
+1>/PDB:C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\Debug/cmTC_1827a.pdb
+1>/SUBSYSTEM:CONSOLE
+1>/IMPLIB:C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\Debug\cmTC_1827a.lib
+1>/machine:X86
+1>/debug
+1>/INCREMENTAL
+1>cmTC_1827a.dir\Debug\CMakeFortranCompilerABI.obj
+1>cmTC_1827a.dir\Debug\cmTC_1827a.exe.embed.manifest.res
+1>Embedding manifest...
+1>Microsoft (R) Manifest Tool version 6.3.9600.17336
+1>Copyright (c) Microsoft Corporation 2012.
+1>All rights reserved.
+1>
+1>Build log written to  "file://C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\cmTC_1827a.dir\Debug\BuildLog.htm"
+1>cmTC_1827a - 0 error(s), 0 warning(s)
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: C:/mumps/lapack-3.6.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.com" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTC_8d1a8"
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+1>------ Build started: Project: cmTC_8d1a8, Configuration: Debug Win32 ------
+1>Compiling with Intel(R) Visual Fortran Compiler 16.0 [IA-32]...
+1>testFortranCompilerF90.f90
+1>Compiling manifest to resources...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.3.9600.17336
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Linking...
+1>Microsoft (R) Incremental Linker Version 14.00.24215.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/OUT:C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\Debug\cmTC_8d1a8.exe
+1>/VERSION:0.0
+1>/MANIFEST
+1>/MANIFESTFILE:cmTC_8d1a8.dir\Debug\cmTC_8d1a8.exe.intermediate.manifest
+1>"/MANIFESTUAC:level='asInvoker' uiAccess='false'"
+1>/DEBUG
+1>/PDB:C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\Debug/cmTC_8d1a8.pdb
+1>/SUBSYSTEM:CONSOLE
+1>/IMPLIB:C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\Debug\cmTC_8d1a8.lib
+1>user32.lib
+1>/machine:X86
+1>/debug
+1>/INCREMENTAL
+1>cmTC_8d1a8.dir\Debug\testFortranCompilerF90.obj
+1>cmTC_8d1a8.dir\Debug\cmTC_8d1a8.exe.embed.manifest.res
+1>Embedding manifest...
+1>Microsoft (R) Manifest Tool version 6.3.9600.17336
+1>Copyright (c) Microsoft Corporation 2012.
+1>All rights reserved.
+1>
+1>Build log written to  "file://C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\cmTC_8d1a8.dir\Debug\BuildLog.htm"
+1>cmTC_8d1a8 - 0 error(s), 0 warning(s)
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Fortran NONE exists. Change Dir: C:/mumps/lapack-3.6.1/INSTALL
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.com" "TIMING.sln" "/build" "Debug" "/project" "secondtst_NONE"
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+1>------ Build started: Project: ZERO_CHECK, Configuration: Debug Win32 ------
+1>  Checking Build System
+1>  CMake does not need to re-run because C:/mumps/lapack-3.6.1/INSTALL/CMakeFiles/generate.stamp is up-to-date.
+2>------ Build started: Project: secondtst_NONE, Configuration: Debug Win32 ------
+2>Compiling with Intel(R) Visual Fortran Compiler 16.0 [IA-32]...
+2>second_NONE.f
+2>secondtst.f
+2>Compiling manifest to resources...
+2>Microsoft (R) Windows (R) Resource Compiler Version 6.3.9600.17336
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>Linking...
+2>Microsoft (R) Incremental Linker Version 14.00.24215.1
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>/OUT:C:\mumps\lapack-3.6.1\INSTALL\Debug\secondtst_NONE.exe
+2>/VERSION:0.0
+2>/MANIFEST
+2>/MANIFESTFILE:secondtst_NONE.dir\Debug\secondtst_NONE.exe.intermediate.manifest
+2>"/MANIFESTUAC:level='asInvoker' uiAccess='false'"
+2>/DEBUG
+2>/PDB:C:\mumps\lapack-3.6.1\INSTALL\Debug/secondtst_NONE.pdb
+2>/SUBSYSTEM:CONSOLE
+2>/IMPLIB:C:\mumps\lapack-3.6.1\INSTALL\Debug\secondtst_NONE.lib
+2>user32.lib
+2>/machine:X86
+2>/debug
+2>/INCREMENTAL
+2>secondtst_NONE.dir\Debug\second_NONE.obj
+2>secondtst_NONE.dir\Debug\secondtst.obj
+2>secondtst_NONE.dir\Debug\secondtst_NONE.exe.embed.manifest.res
+2>Embedding manifest...
+2>Microsoft (R) Manifest Tool version 6.3.9600.17336
+2>Copyright (c) Microsoft Corporation 2012.
+2>All rights reserved.
+2>
+2>Build log written to  "file://C:\mumps\lapack-3.6.1\INSTALL\secondtst_NONE.dir\Debug\BuildLog.htm"
+2>secondtst_NONE - 0 error(s), 0 warning(s)
+========== Build: 2 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+ 
+
+Fortran INT_CPU_TIME exists. Change Dir: C:/mumps/lapack-3.6.1/INSTALL
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.com" "TIMING.sln" "/build" "Debug" "/project" "secondtst_INT_CPU_TIME"
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+1>------ Build started: Project: secondtst_INT_CPU_TIME, Configuration: Debug Win32 ------
+1>Compiling with Intel(R) Visual Fortran Compiler 16.0 [IA-32]...
+1>second_INT_CPU_TIME.f
+1>secondtst.f
+1>Compiling manifest to resources...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.3.9600.17336
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Linking...
+1>Microsoft (R) Incremental Linker Version 14.00.24215.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/OUT:C:\mumps\lapack-3.6.1\INSTALL\Debug\secondtst_INT_CPU_TIME.exe
+1>/VERSION:0.0
+1>/MANIFEST
+1>/MANIFESTFILE:secondtst_INT_CPU_TIME.dir\Debug\secondtst_INT_CPU_TIME.exe.intermediate.manifest
+1>"/MANIFESTUAC:level='asInvoker' uiAccess='false'"
+1>/DEBUG
+1>/PDB:C:\mumps\lapack-3.6.1\INSTALL\Debug/secondtst_INT_CPU_TIME.pdb
+1>/SUBSYSTEM:CONSOLE
+1>/IMPLIB:C:\mumps\lapack-3.6.1\INSTALL\Debug\secondtst_INT_CPU_TIME.lib
+1>user32.lib
+1>/machine:X86
+1>/debug
+1>/INCREMENTAL
+1>secondtst_INT_CPU_TIME.dir\Debug\second_INT_CPU_TIME.obj
+1>secondtst_INT_CPU_TIME.dir\Debug\secondtst.obj
+1>secondtst_INT_CPU_TIME.dir\Debug\secondtst_INT_CPU_TIME.exe.embed.manifest.res
+1>Embedding manifest...
+1>Microsoft (R) Manifest Tool version 6.3.9600.17336
+1>Copyright (c) Microsoft Corporation 2012.
+1>All rights reserved.
+1>
+1>Build log written to  "file://C:\mumps\lapack-3.6.1\INSTALL\secondtst_INT_CPU_TIME.dir\Debug\BuildLog.htm"
+1>secondtst_INT_CPU_TIME - 0 error(s), 0 warning(s)
+========== Build: 1 succeeded, 0 failed, 1 up-to-date, 0 skipped ==========
+ 
+
+Fortran EXT_ETIME exists. Change Dir: C:/mumps/lapack-3.6.1/INSTALL
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.com" "TIMING.sln" "/build" "Debug" "/project" "secondtst_EXT_ETIME"
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+1>------ Build started: Project: secondtst_EXT_ETIME, Configuration: Debug Win32 ------
+1>Compiling with Intel(R) Visual Fortran Compiler 16.0 [IA-32]...
+1>secondtst.f
+1>second_EXT_ETIME.f
+1>Compiling manifest to resources...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.3.9600.17336
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Linking...
+1>Microsoft (R) Incremental Linker Version 14.00.24215.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/OUT:C:\mumps\lapack-3.6.1\INSTALL\Debug\secondtst_EXT_ETIME.exe
+1>/VERSION:0.0
+1>/MANIFEST
+1>/MANIFESTFILE:secondtst_EXT_ETIME.dir\Debug\secondtst_EXT_ETIME.exe.intermediate.manifest
+1>"/MANIFESTUAC:level='asInvoker' uiAccess='false'"
+1>/DEBUG
+1>/PDB:C:\mumps\lapack-3.6.1\INSTALL\Debug/secondtst_EXT_ETIME.pdb
+1>/SUBSYSTEM:CONSOLE
+1>/IMPLIB:C:\mumps\lapack-3.6.1\INSTALL\Debug\secondtst_EXT_ETIME.lib
+1>user32.lib
+1>/machine:X86
+1>/debug
+1>/INCREMENTAL
+1>secondtst_EXT_ETIME.dir\Debug\secondtst.obj
+1>secondtst_EXT_ETIME.dir\Debug\second_EXT_ETIME.obj
+1>secondtst_EXT_ETIME.dir\Debug\secondtst_EXT_ETIME.exe.embed.manifest.res
+1>Embedding manifest...
+1>Microsoft (R) Manifest Tool version 6.3.9600.17336
+1>Copyright (c) Microsoft Corporation 2012.
+1>All rights reserved.
+1>
+1>Build log written to  "file://C:\mumps\lapack-3.6.1\INSTALL\secondtst_EXT_ETIME.dir\Debug\BuildLog.htm"
+1>secondtst_EXT_ETIME - 0 error(s), 0 warning(s)
+========== Build: 1 succeeded, 0 failed, 1 up-to-date, 0 skipped ==========
+ 
+
+Fortran NONE exists. Change Dir: C:/mumps/lapack-3.6.1/INSTALL
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.com" "TIMING.sln" "/build" "Debug" "/project" "secondtst_NONE"
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+========== Build: 0 succeeded, 0 failed, 2 up-to-date, 0 skipped ==========
+ 
+
+Fortran INT_CPU_TIME exists. Change Dir: C:/mumps/lapack-3.6.1/INSTALL
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.com" "TIMING.sln" "/build" "Debug" "/project" "secondtst_INT_CPU_TIME"
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+========== Build: 0 succeeded, 0 failed, 2 up-to-date, 0 skipped ==========
+ 
+
+Fortran EXT_ETIME exists. Change Dir: C:/mumps/lapack-3.6.1/INSTALL
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.com" "TIMING.sln" "/build" "Debug" "/project" "secondtst_EXT_ETIME"
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+========== Build: 0 succeeded, 0 failed, 2 up-to-date, 0 skipped ==========
+ 
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 12/20/2018 3:54:37 PM.
+Project "C:\mumps\lapack-3.6.1\CMakeFiles\3.13.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\mumps\lapack-3.6.1\CMakeFiles\3.13.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\mumps\lapack-3.6.1\CMakeFiles\3.13.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.52
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/mumps/lapack-3.6.1/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/mumps/lapack-3.6.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_42113.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 12/20/2018 3:54:38 PM.
+Project "C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\cmTC_42113.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_42113.dir\Debug\".
+  Creating directory "C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_42113.dir\Debug\cmTC_42113.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_42113.dir\Debug\cmTC_42113.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42113.dir\Debug\\" /Fd"cmTC_42113.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42113.dir\Debug\\" /Fd"cmTC_42113.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\Debug\cmTC_42113.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/mumps/lapack-3.6.1/CMakeFiles/CMakeTmp/Debug/cmTC_42113.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/mumps/lapack-3.6.1/CMakeFiles/CMakeTmp/Debug/cmTC_42113.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_42113.dir\Debug\testCCompiler.obj
+  cmTC_42113.vcxproj -> C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\Debug\cmTC_42113.exe
+  cmTC_42113.vcxproj -> C:/mumps/lapack-3.6.1/CMakeFiles/CMakeTmp/Debug/cmTC_42113.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_42113.dir\Debug\cmTC_42113.tlog\unsuccessfulbuild".
+  Touching "cmTC_42113.dir\Debug\cmTC_42113.tlog\cmTC_42113.lastbuildstate".
+Done Building Project "C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\cmTC_42113.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.59
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/mumps/lapack-3.6.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9d983.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 12/20/2018 3:54:39 PM.
+Project "C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\cmTC_9d983.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_9d983.dir\Debug\".
+  Creating directory "C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_9d983.dir\Debug\cmTC_9d983.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_9d983.dir\Debug\cmTC_9d983.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d983.dir\Debug\\" /Fd"cmTC_9d983.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d983.dir\Debug\\" /Fd"cmTC_9d983.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\Debug\cmTC_9d983.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/mumps/lapack-3.6.1/CMakeFiles/CMakeTmp/Debug/cmTC_9d983.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/mumps/lapack-3.6.1/CMakeFiles/CMakeTmp/Debug/cmTC_9d983.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_9d983.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_9d983.vcxproj -> C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\Debug\cmTC_9d983.exe
+  cmTC_9d983.vcxproj -> C:/mumps/lapack-3.6.1/CMakeFiles/CMakeTmp/Debug/cmTC_9d983.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_9d983.dir\Debug\cmTC_9d983.tlog\unsuccessfulbuild".
+  Touching "cmTC_9d983.dir\Debug\cmTC_9d983.tlog\cmTC_9d983.lastbuildstate".
+Done Building Project "C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\cmTC_9d983.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.58
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: C:/mumps/lapack-3.6.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_35bee.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 12/20/2018 3:54:39 PM.
+Project "C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\cmTC_35bee.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_35bee.dir\Debug\".
+  Creating directory "C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_35bee.dir\Debug\cmTC_35bee.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_35bee.dir\Debug\cmTC_35bee.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_35bee.dir\Debug\\" /Fd"cmTC_35bee.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\mumps\lapack-3.6.1\CMakeFiles\feature_tests.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_35bee.dir\Debug\\" /Fd"cmTC_35bee.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\mumps\lapack-3.6.1\CMakeFiles\feature_tests.c"
+  
+  feature_tests.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\Debug\cmTC_35bee.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/mumps/lapack-3.6.1/CMakeFiles/CMakeTmp/Debug/cmTC_35bee.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/mumps/lapack-3.6.1/CMakeFiles/CMakeTmp/Debug/cmTC_35bee.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_35bee.dir\Debug\feature_tests.obj
+  cmTC_35bee.vcxproj -> C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\Debug\cmTC_35bee.exe
+  cmTC_35bee.vcxproj -> C:/mumps/lapack-3.6.1/CMakeFiles/CMakeTmp/Debug/cmTC_35bee.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_35bee.dir\Debug\cmTC_35bee.tlog\unsuccessfulbuild".
+  Touching "cmTC_35bee.dir\Debug\cmTC_35bee.tlog\cmTC_35bee.lastbuildstate".
+Done Building Project "C:\mumps\lapack-3.6.1\CMakeFiles\CMakeTmp\cmTC_35bee.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.59
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
+Fortran NONE exists. Change Dir: C:/mumps/lapack-3.6.1/INSTALL
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.com" "TIMING.sln" "/build" "Debug" "/project" "secondtst_NONE"
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+========== Build: 0 succeeded, 0 failed, 2 up-to-date, 0 skipped ==========
+ 
+
+Fortran INT_CPU_TIME exists. Change Dir: C:/mumps/lapack-3.6.1/INSTALL
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.com" "TIMING.sln" "/build" "Debug" "/project" "secondtst_INT_CPU_TIME"
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+========== Build: 0 succeeded, 0 failed, 2 up-to-date, 0 skipped ==========
+ 
+
+Fortran EXT_ETIME exists. Change Dir: C:/mumps/lapack-3.6.1/INSTALL
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.com" "TIMING.sln" "/build" "Debug" "/project" "secondtst_EXT_ETIME"
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+========== Build: 0 succeeded, 0 failed, 2 up-to-date, 0 skipped ==========
+ 
+
+Fortran NONE exists. Change Dir: C:/mumps/lapack-3.6.1/INSTALL
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.com" "TIMING.sln" "/build" "Debug" "/project" "secondtst_NONE"
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+========== Build: 0 succeeded, 0 failed, 2 up-to-date, 0 skipped ==========
+ 
+
+Fortran INT_CPU_TIME exists. Change Dir: C:/mumps/lapack-3.6.1/INSTALL
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.com" "TIMING.sln" "/build" "Debug" "/project" "secondtst_INT_CPU_TIME"
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+========== Build: 0 succeeded, 0 failed, 2 up-to-date, 0 skipped ==========
+ 
+
+Fortran EXT_ETIME exists. Change Dir: C:/mumps/lapack-3.6.1/INSTALL
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.com" "TIMING.sln" "/build" "Debug" "/project" "secondtst_EXT_ETIME"
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+========== Build: 0 succeeded, 0 failed, 2 up-to-date, 0 skipped ==========
+ 
+

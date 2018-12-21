@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (LIBMPISEQ_C.vcxproj, MUMPS_COMMON_OBJ_C.vcxproj, PORD_C.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Building Custom Rule C:/mumps/MUMPS_5.1.2/CMakeLists.txt
+  CMake does not need to re-run because C:/mumps/MUMPS_5.1.2/CMakeFiles/generate.stamp is up-to-date.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (libdmumps.vcxproj, MUMPS_COMMON_OBJ_C.vcxproj, PORD_C.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (libdmumps.vcxproj, LIBMPISEQ_C.vcxproj, MUMPS_COMMON_OBJ_C.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (libdmumps.vcxproj, LIBMPISEQ_C.vcxproj, PORD_C.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+LINK : fatal error LNK1181: cannot open input file 'C:\mumps\MUMPS_5.1.2\MUMPS_COMMON_OBJ_FORTRAN.dir\Debug\lr_common.obj'

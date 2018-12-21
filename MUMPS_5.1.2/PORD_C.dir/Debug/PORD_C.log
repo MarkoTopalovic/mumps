@@ -1,0 +1,18 @@
+﻿  Building Custom Rule C:/mumps/MUMPS_5.1.2/CMakeLists.txt
+  CMake does not need to re-run because C:/mumps/MUMPS_5.1.2/CMakeFiles/generate.stamp is up-to-date.
+  bucket.c
+  ddbisect.c
+  ddcreate.c
+  gbipart.c
+  gbisect.c
+  gelim.c
+  graph.c
+  interface.c
+  minpriority.c
+  multisector.c
+  nestdiss.c
+  sort.c
+  symbfac.c
+  tree.c
+  Generating Code...
+  PORD_C.vcxproj -> C:\mumps\MUMPS_5.1.2\PORD_C.dir\Debug\PORD_C.lib

@@ -1,0 +1,3 @@
+# CMake generation dependency list for this directory.
+C:/mumps/lapack-3.6.1/BLAS/CMakeLists.txt
+C:/mumps/lapack-3.6.1/BLAS/blas.pc.in

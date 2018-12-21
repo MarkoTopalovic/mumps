@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectType="typeStaticLibrary" ProjectCreator="Intel Fortran" Keyword="Static Library" Version="11.0" ProjectIdGuid="{7C453490-9468-3F8A-92A3-979851088C9C}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32" OutputDirectory="C:\mumps\lapack-3.6.1\lib\Debug" IntermediateDirectory="tmglib.dir\Debug" TargetName="tmglib" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Preprocess="preprocessYes" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;" ModulePath=".\$(ConfigurationName)" AssemblerListingLocation="Debug/" RuntimeLibrary="rtMultiThreadedDebugDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" AdditionalOptions="/machine:X86" OutputFile="C:\mumps\lapack-3.6.1\lib\Debug\tmglib.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="Release|Win32" OutputDirectory="C:\mumps\lapack-3.6.1\lib\Release" IntermediateDirectory="tmglib.dir\Release" TargetName="tmglib" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1 /O2" SuppressStartupBanner="true" Preprocess="preprocessYes" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;" ModulePath=".\$(ConfigurationName)" AssemblerListingLocation="Release/" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" AdditionalOptions="/machine:X86" OutputFile="C:\mumps\lapack-3.6.1\lib\Release\tmglib.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="MinSizeRel|Win32" OutputDirectory="C:\mumps\lapack-3.6.1\lib\MinSizeRel" IntermediateDirectory="tmglib.dir\MinSizeRel" TargetName="tmglib" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1" SuppressStartupBanner="true" Optimization="optimizeMinSpace" Preprocess="preprocessYes" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;" ModulePath=".\$(ConfigurationName)" AssemblerListingLocation="MinSizeRel/" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" AdditionalOptions="/machine:X86" OutputFile="C:\mumps\lapack-3.6.1\lib\MinSizeRel\tmglib.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="RelWithDebInfo|Win32" OutputDirectory="C:\mumps\lapack-3.6.1\lib\RelWithDebInfo" IntermediateDirectory="tmglib.dir\RelWithDebInfo" TargetName="tmglib" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1 /O2" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Preprocess="preprocessYes" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;" ModulePath=".\$(ConfigurationName)" AssemblerListingLocation="RelWithDebInfo/" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" AdditionalOptions="/machine:X86" OutputFile="C:\mumps\lapack-3.6.1\lib\RelWithDebInfo\tmglib.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Source Files">
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\dlagge.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\dlagsy.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\dlahilb.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\dlakf2.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\dlaran.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\dlarge.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\dlarnd.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\dlaror.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\dlarot.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\dlatm1.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\dlatm2.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\dlatm3.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\dlatm5.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\dlatm6.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\dlatm7.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\dlatme.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\dlatmr.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\dlatms.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\dlatmt.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\slagge.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\slagsy.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\slahilb.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\slakf2.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\slaran.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\slarge.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\slarnd.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\slaror.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\slarot.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\slatm1.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\slatm2.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\slatm3.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\slatm5.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\slatm6.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\slatm7.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\slatme.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\slatmr.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\slatms.f"/>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\slatmt.f"/></Filter>
+		<File RelativePath="C:\mumps\lapack-3.6.1\TESTING\MATGEN\CMakeLists.txt">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/mumps/lapack-3.6.1 -BC:/mumps/lapack-3.6.1 --check-stamp-file C:/mumps/lapack-3.6.1/TESTING/MATGEN/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/mumps/lapack-3.6.1/TESTING/MATGEN/CMakeLists.txt" Outputs="C:\mumps\lapack-3.6.1\TESTING\MATGEN\CMakeFiles\generate.stamp" AdditionalDependencies="C:\mumps\lapack-3.6.1\TESTING\MATGEN\CMakeLists.txt;C:\mumps\lapack-3.6.1\TESTING\MATGEN\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/mumps/lapack-3.6.1 -BC:/mumps/lapack-3.6.1 --check-stamp-file C:/mumps/lapack-3.6.1/TESTING/MATGEN/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/mumps/lapack-3.6.1/TESTING/MATGEN/CMakeLists.txt" Outputs="C:\mumps\lapack-3.6.1\TESTING\MATGEN\CMakeFiles\generate.stamp" AdditionalDependencies="C:\mumps\lapack-3.6.1\TESTING\MATGEN\CMakeLists.txt;C:\mumps\lapack-3.6.1\TESTING\MATGEN\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/mumps/lapack-3.6.1 -BC:/mumps/lapack-3.6.1 --check-stamp-file C:/mumps/lapack-3.6.1/TESTING/MATGEN/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/mumps/lapack-3.6.1/TESTING/MATGEN/CMakeLists.txt" Outputs="C:\mumps\lapack-3.6.1\TESTING\MATGEN\CMakeFiles\generate.stamp" AdditionalDependencies="C:\mumps\lapack-3.6.1\TESTING\MATGEN\CMakeLists.txt;C:\mumps\lapack-3.6.1\TESTING\MATGEN\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/mumps/lapack-3.6.1 -BC:/mumps/lapack-3.6.1 --check-stamp-file C:/mumps/lapack-3.6.1/TESTING/MATGEN/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/mumps/lapack-3.6.1/TESTING/MATGEN/CMakeLists.txt" Outputs="C:\mumps\lapack-3.6.1\TESTING\MATGEN\CMakeFiles\generate.stamp" AdditionalDependencies="C:\mumps\lapack-3.6.1\TESTING\MATGEN\CMakeLists.txt;C:\mumps\lapack-3.6.1\TESTING\MATGEN\CMakeLists.txt;"/></FileConfiguration></File></Files>
+	<Globals/></VisualStudioProject>

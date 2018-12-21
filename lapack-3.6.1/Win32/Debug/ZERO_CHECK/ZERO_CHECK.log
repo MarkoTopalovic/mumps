@@ -1,0 +1,10 @@
+﻿  Checking Build System
+  CMake does not need to re-run because C:/mumps/lapack-3.6.1/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/mumps/lapack-3.6.1/BLAS/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/mumps/lapack-3.6.1/BLAS/SRC/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/mumps/lapack-3.6.1/BLAS/TESTING/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/mumps/lapack-3.6.1/SRC/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/mumps/lapack-3.6.1/TESTING/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/mumps/lapack-3.6.1/TESTING/MATGEN/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/mumps/lapack-3.6.1/TESTING/LIN/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/mumps/lapack-3.6.1/TESTING/EIG/CMakeFiles/generate.stamp is up-to-date.
