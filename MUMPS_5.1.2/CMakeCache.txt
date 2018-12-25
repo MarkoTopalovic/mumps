@@ -17,29 +17,77 @@
 //MUMPS arithmetic
 ARITHMETIC:STRING=double
 
+//Path to a library.
+BLAS_Accelerate_LIBRARY:FILEPATH=BLAS_Accelerate_LIBRARY-NOTFOUND
+
 //Locate BLAS library directory
-BLAS_LIBRARIES_USER:PATH=C:/Program Files (x86)/IntelSWTools/compilers_and_libraries_2016.3.207/windows/mkl/lib/ia32_win
+BLAS_LIBRARIES_USER:PATH=C:/mumps/lapack-3.6.1/lib/Debug
 
 //Path to a library.
-BLAS_libguide40_LIBRARY:FILEPATH=BLAS_libguide40_LIBRARY-NOTFOUND
+BLAS_acml_LIBRARY:FILEPATH=BLAS_acml_LIBRARY-NOTFOUND
 
 //Path to a library.
-BLAS_libiomp5md_LIBRARY:FILEPATH=C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/compiler/lib/ia32/libiomp5md.lib
+BLAS_acml_mp_LIBRARY:FILEPATH=BLAS_acml_mp_LIBRARY-NOTFOUND
 
 //Path to a library.
-BLAS_mkl_core_dll_LIBRARY:FILEPATH=C:/Program Files (x86)/IntelSWTools/compilers_and_libraries_2016.3.207/windows/mkl/lib/ia32_win/mkl_core_dll.lib
+BLAS_blas_LIBRARY:FILEPATH=C:/mumps/lapack-3.6.1/lib/Debug/blas.lib
 
 //Path to a library.
-BLAS_mkl_intel_c_dll_LIBRARY:FILEPATH=C:/Program Files (x86)/IntelSWTools/compilers_and_libraries_2016.3.207/windows/mkl/lib/ia32_win/mkl_intel_c_dll.lib
+BLAS_blis_LIBRARY:FILEPATH=BLAS_blis_LIBRARY-NOTFOUND
 
 //Path to a library.
-BLAS_mkl_intel_lp64_dll_LIBRARY:FILEPATH=BLAS_mkl_intel_lp64_dll_LIBRARY-NOTFOUND
+BLAS_complib.sgimath_LIBRARY:FILEPATH=BLAS_complib.sgimath_LIBRARY-NOTFOUND
 
 //Path to a library.
-BLAS_mkl_intel_thread_dll_LIBRARY:FILEPATH=C:/Program Files (x86)/IntelSWTools/compilers_and_libraries_2016.3.207/windows/mkl/lib/ia32_win/mkl_intel_thread_dll.lib
+BLAS_cxml_LIBRARY:FILEPATH=BLAS_cxml_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_dxml_LIBRARY:FILEPATH=BLAS_dxml_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_essl_LIBRARY:FILEPATH=BLAS_essl_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_f77blas_LIBRARY:FILEPATH=BLAS_f77blas_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_goto2_LIBRARY:FILEPATH=BLAS_goto2_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_libguide40_LIBRARY:FILEPATH=
+
+//Path to a library.
+BLAS_libiomp5md_LIBRARY:FILEPATH=
+
+//Path to a library.
+BLAS_mkl_core_dll_LIBRARY:FILEPATH=
+
+//Path to a library.
+BLAS_mkl_intel_c_dll_LIBRARY:FILEPATH=
+
+//Path to a library.
+BLAS_mkl_intel_lp64_dll_LIBRARY:FILEPATH=
+
+//Path to a library.
+BLAS_mkl_intel_thread_dll_LIBRARY:FILEPATH=
+
+//Path to a library.
+BLAS_openblas_LIBRARY:FILEPATH=BLAS_openblas_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_scsl_LIBRARY:FILEPATH=BLAS_scsl_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_sgemm_LIBRARY:FILEPATH=BLAS_sgemm_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_sunperf_LIBRARY:FILEPATH=BLAS_sunperf_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_vecLib_LIBRARY:FILEPATH=BLAS_vecLib_LIBRARY-NOTFOUND
 
 //BLAS library vendor
-BLA_VENDOR:STRING=Intel10_32
+BLA_VENDOR:STRING=All
 
 //Build MUMPS examples
 BUILD_EXAMPLES:BOOL=ON
@@ -210,7 +258,7 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_VERBOSE_MAKEFILE:BOOL=OFF
 
 //Enable OpenMP multithreading.
-ENABLE_OPENMP:BOOL=ON
+ENABLE_OPENMP:BOOL=OFF
 
 //Path to METIS folder
 METIS_DIR:PATH=
@@ -237,7 +285,7 @@ OpenMP_Fortran_LIB_NAMES:STRING=
 USE_METIS:BOOL=OFF
 
 //Dependencies for the target
-libdmumps_LIB_DEPENDS:STATIC=general;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries_2016.3.207/windows/mkl/lib/ia32_win/mkl_intel_c_dll.lib;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/compiler/lib/ia32/libiomp5md.lib;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries_2016.3.207/windows/mkl/lib/ia32_win/mkl_intel_thread_dll.lib;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries_2016.3.207/windows/mkl/lib/ia32_win/mkl_core_dll.lib;
+libdmumps_LIB_DEPENDS:STATIC=general;C:/mumps/lapack-3.6.1/lib/Debug/blas.lib;
 
 
 ########################
@@ -246,8 +294,38 @@ libdmumps_LIB_DEPENDS:STATIC=general;C:/Program Files (x86)/IntelSWTools/compile
 
 //STRINGS property for variable: ARITHMETIC
 ARITHMETIC-STRINGS:INTERNAL=float;double;complex;complex-double
+//ADVANCED property for variable: BLAS_Accelerate_LIBRARY
+BLAS_Accelerate_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BLAS_LIBRARIES_USER
 BLAS_LIBRARIES_USER-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_WORKS
+BLAS_WORKS-ADVANCED:INTERNAL=1
+//Have Fortran function sgemm
+BLAS_WORKS:INTERNAL=
+//ADVANCED property for variable: BLAS_acml_LIBRARY
+BLAS_acml_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_acml_mp_LIBRARY
+BLAS_acml_mp_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_blas_LIBRARY
+BLAS_blas_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_blas_WORKS
+BLAS_blas_WORKS-ADVANCED:INTERNAL=1
+//Have Fortran function sgemm
+BLAS_blas_WORKS:INTERNAL=1
+//ADVANCED property for variable: BLAS_blis_LIBRARY
+BLAS_blis_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_complib.sgimath_LIBRARY
+BLAS_complib.sgimath_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_cxml_LIBRARY
+BLAS_cxml_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_dxml_LIBRARY
+BLAS_dxml_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_essl_LIBRARY
+BLAS_essl_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_f77blas_LIBRARY
+BLAS_f77blas_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_goto2_LIBRARY
+BLAS_goto2_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BLAS_libguide40_LIBRARY
 BLAS_libguide40_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BLAS_libiomp5md_LIBRARY
@@ -256,14 +334,22 @@ BLAS_libiomp5md_LIBRARY-ADVANCED:INTERNAL=1
 BLAS_mkl_core_dll_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BLAS_mkl_intel_c_dll_LIBRARY
 BLAS_mkl_intel_c_dll_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_mkl_intel_c_dll_libiomp5md_mkl_intel_thread_dll_mkl_core_dll_WORKS
-BLAS_mkl_intel_c_dll_libiomp5md_mkl_intel_thread_dll_mkl_core_dll_WORKS-ADVANCED:INTERNAL=1
 //Have Fortran function sgemm
 BLAS_mkl_intel_c_dll_libiomp5md_mkl_intel_thread_dll_mkl_core_dll_WORKS:INTERNAL=1
 //ADVANCED property for variable: BLAS_mkl_intel_lp64_dll_LIBRARY
 BLAS_mkl_intel_lp64_dll_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BLAS_mkl_intel_thread_dll_LIBRARY
 BLAS_mkl_intel_thread_dll_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_openblas_LIBRARY
+BLAS_openblas_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_scsl_LIBRARY
+BLAS_scsl_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_sgemm_LIBRARY
+BLAS_sgemm_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_sunperf_LIBRARY
+BLAS_sunperf_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_vecLib_LIBRARY
+BLAS_vecLib_LIBRARY-ADVANCED:INTERNAL=1
 //STRINGS property for variable: BLA_VENDOR
 BLA_VENDOR-STRINGS:INTERNAL=All;Goto;OpenBLAS;ATLAS;PhiPACK;CXML;DXML;SunPerf;SCSL;SGIMATH;IBMESSL;Intel10_32;Intel10_64lp;Intel10_64lp_seq;Intel;ACML;ACML_MP;ACML_GPU;Apple;NAS
 //This is the directory where this CMakeCache.txt was created
@@ -389,7 +475,7 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding BLAS
-FIND_PACKAGE_MESSAGE_DETAILS_BLAS:INTERNAL=[C:/Program Files (x86)/IntelSWTools/compilers_and_libraries_2016.3.207/windows/mkl/lib/ia32_win/mkl_intel_c_dll.lib;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/compiler/lib/ia32/libiomp5md.lib;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries_2016.3.207/windows/mkl/lib/ia32_win/mkl_intel_thread_dll.lib;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries_2016.3.207/windows/mkl/lib/ia32_win/mkl_core_dll.lib][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_BLAS:INTERNAL=[C:/mumps/lapack-3.6.1/lib/Debug/blas.lib][v()]
 //Details about finding OpenMP
 FIND_PACKAGE_MESSAGE_DETAILS_OpenMP:INTERNAL=[TRUE][TRUE][c ][v()]
 //Details about finding OpenMP_C

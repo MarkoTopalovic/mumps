@@ -1,2 +1,5 @@
-﻿  c_example.vcxproj -> C:\mumps\MUMPS_5.1.2\Debug\c_example.exe
+﻿  Building Custom Rule C:/mumps/MUMPS_5.1.2/CMakeLists.txt
+  CMake does not need to re-run because C:/mumps/MUMPS_5.1.2/CMakeFiles/generate.stamp is up-to-date.
+  c_example.c
+  c_example.vcxproj -> C:\mumps\MUMPS_5.1.2\Debug\c_example.exe
   c_example.vcxproj -> C:/mumps/MUMPS_5.1.2/Debug/c_example.pdb (Full PDB)

@@ -36,3 +36,50 @@ Build FAILED.
 Time Elapsed 00:00:00.32
 
 
+Determining if the Fortran sgemm exists failed with the following output:
+Change Dir: C:/mumps/MUMPS_5.1.2/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.com" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTC_4aae5"
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+1>------ Build started: Project: cmTC_4aae5, Configuration: Debug Win32 ------
+1>Compiling with Intel(R) Visual Fortran Compiler 16.0 [IA-32]...
+1>testFortranCompiler.f
+1>Compiling manifest to resources...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.3.9600.17336
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Linking...
+1>Microsoft (R) Incremental Linker Version 14.00.24215.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/OUT:C:\mumps\MUMPS_5.1.2\CMakeFiles\CMakeTmp\Debug\cmTC_4aae5.exe
+1>/VERSION:0.0
+1>/MANIFEST
+1>/MANIFESTFILE:cmTC_4aae5.dir\Debug\cmTC_4aae5.exe.intermediate.manifest
+1>"/MANIFESTUAC:level='asInvoker' uiAccess='false'"
+1>/DEBUG
+1>/PDB:C:\mumps\MUMPS_5.1.2\CMakeFiles\CMakeTmp\Debug/cmTC_4aae5.pdb
+1>/SUBSYSTEM:CONSOLE
+1>/IMPLIB:C:\mumps\MUMPS_5.1.2\CMakeFiles\CMakeTmp\Debug\cmTC_4aae5.lib
+1>user32.lib
+1>/machine:X86
+1>/debug
+1>/INCREMENTAL
+1>cmTC_4aae5.dir\Debug\testFortranCompiler.obj
+1>cmTC_4aae5.dir\Debug\cmTC_4aae5.exe.embed.manifest.res
+1>testFortranCompiler.obj : error LNK2019: unresolved external symbol _SGEMM referenced in function _MAIN__
+1>C:\mumps\MUMPS_5.1.2\CMakeFiles\CMakeTmp\Debug\cmTC_4aae5.exe : fatal error LNK1120: 1 unresolved externals
+1>
+1>Build log written to  "file://C:\mumps\MUMPS_5.1.2\CMakeFiles\CMakeTmp\cmTC_4aae5.dir\Debug\BuildLog.htm"
+1>cmTC_4aae5 - 2 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+

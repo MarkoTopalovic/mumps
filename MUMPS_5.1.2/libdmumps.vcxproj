@@ -31,7 +31,6 @@
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v140</PlatformToolset>
-    <UseMpiLibrary>No</UseMpiLibrary>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
@@ -82,9 +81,6 @@
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LibraryPath>C:\Program Files %28x86%29\IntelSWTools\compilers_and_libraries_2016.3.207\windows\compiler\lib\ia32_win;$(LibraryPath)</LibraryPath>
-  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <AdditionalIncludeDirectories>C:\mumps\MUMPS_5.1.2\PORD\include;C:\mumps\MUMPS_5.1.2\libseq;C:\mumps\MUMPS_5.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -115,7 +111,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.3.207\windows\mkl\lib\ia32_win\mkl_intel_c_dll.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\compiler\lib\ia32\libiomp5md.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.3.207\windows\mkl\lib\ia32_win\mkl_intel_thread_dll.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.3.207\windows\mkl\lib\ia32_win\mkl_core_dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\mumps\lapack-3.6.1\lib\Debug\blas.lib;C:\mumps\lapack-3.6.1\lib\Debug\lapack.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/lib/ia32;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/lib/ia32/$(Configuration);C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/compiler/lib/ia32;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/compiler/lib/ia32/$(Configuration);C:/Program Files (x86)/Intel/Composer XE/mkl/lib/ia32;C:/Program Files (x86)/Intel/Composer XE/mkl/lib/ia32/$(Configuration);C:/Program Files (x86)/Intel/Composer XE/compiler/lib/ia32;C:/Program Files (x86)/Intel/Composer XE/compiler/lib/ia32/$(Configuration);C:/Program Files (x86)/IntelSWTools/compilers_and_libraries_2016/windows/compiler/lib/ia32_win;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries_2016/windows/compiler/lib/ia32_win/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -157,7 +154,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.3.207\windows\mkl\lib\ia32_win\mkl_intel_c_dll.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\compiler\lib\ia32\libiomp5md.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.3.207\windows\mkl\lib\ia32_win\mkl_intel_thread_dll.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.3.207\windows\mkl\lib\ia32_win\mkl_core_dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\mumps\lapack-3.6.1\lib\Debug\blas.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/lib/ia32;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/lib/ia32/$(Configuration);C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/compiler/lib/ia32;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/compiler/lib/ia32/$(Configuration);C:/Program Files (x86)/Intel/Composer XE/mkl/lib/ia32;C:/Program Files (x86)/Intel/Composer XE/mkl/lib/ia32/$(Configuration);C:/Program Files (x86)/Intel/Composer XE/compiler/lib/ia32;C:/Program Files (x86)/Intel/Composer XE/compiler/lib/ia32/$(Configuration);C:/Program Files (x86)/IntelSWTools/compilers_and_libraries_2016/windows/compiler/lib/ia32_win;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries_2016/windows/compiler/lib/ia32_win/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -200,7 +197,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.3.207\windows\mkl\lib\ia32_win\mkl_intel_c_dll.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\compiler\lib\ia32\libiomp5md.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.3.207\windows\mkl\lib\ia32_win\mkl_intel_thread_dll.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.3.207\windows\mkl\lib\ia32_win\mkl_core_dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\mumps\lapack-3.6.1\lib\Debug\blas.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/lib/ia32;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/lib/ia32/$(Configuration);C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/compiler/lib/ia32;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/compiler/lib/ia32/$(Configuration);C:/Program Files (x86)/Intel/Composer XE/mkl/lib/ia32;C:/Program Files (x86)/Intel/Composer XE/mkl/lib/ia32/$(Configuration);C:/Program Files (x86)/Intel/Composer XE/compiler/lib/ia32;C:/Program Files (x86)/Intel/Composer XE/compiler/lib/ia32/$(Configuration);C:/Program Files (x86)/IntelSWTools/compilers_and_libraries_2016/windows/compiler/lib/ia32_win;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries_2016/windows/compiler/lib/ia32_win/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -242,7 +239,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.3.207\windows\mkl\lib\ia32_win\mkl_intel_c_dll.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\compiler\lib\ia32\libiomp5md.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.3.207\windows\mkl\lib\ia32_win\mkl_intel_thread_dll.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.3.207\windows\mkl\lib\ia32_win\mkl_core_dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\mumps\lapack-3.6.1\lib\Debug\blas.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/lib/ia32;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/lib/ia32/$(Configuration);C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/compiler/lib/ia32;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/compiler/lib/ia32/$(Configuration);C:/Program Files (x86)/Intel/Composer XE/mkl/lib/ia32;C:/Program Files (x86)/Intel/Composer XE/mkl/lib/ia32/$(Configuration);C:/Program Files (x86)/Intel/Composer XE/compiler/lib/ia32;C:/Program Files (x86)/Intel/Composer XE/compiler/lib/ia32/$(Configuration);C:/Program Files (x86)/IntelSWTools/compilers_and_libraries_2016/windows/compiler/lib/ia32_win;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries_2016/windows/compiler/lib/ia32_win/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>

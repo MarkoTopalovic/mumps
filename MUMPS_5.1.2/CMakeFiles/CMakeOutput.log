@@ -419,3 +419,53 @@ Package 'IFLangServicePackage' failed to load.
 ========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
 
 
+Determining if the Fortran sgemm exists passed with the following output:
+Change Dir: C:/mumps/MUMPS_5.1.2/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/devenv.com" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTC_95b6e"
+
+Microsoft Visual Studio 2015 Version 14.0.25420.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+1>------ Build started: Project: cmTC_95b6e, Configuration: Debug Win32 ------
+1>Compiling with Intel(R) Visual Fortran Compiler 16.0 [IA-32]...
+1>testFortranCompiler.f
+1>Compiling manifest to resources...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.3.9600.17336
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Linking...
+1>Microsoft (R) Incremental Linker Version 14.00.24215.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/OUT:C:\mumps\MUMPS_5.1.2\CMakeFiles\CMakeTmp\Debug\cmTC_95b6e.exe
+1>/VERSION:0.0
+1>/MANIFEST
+1>/MANIFESTFILE:cmTC_95b6e.dir\Debug\cmTC_95b6e.exe.intermediate.manifest
+1>"/MANIFESTUAC:level='asInvoker' uiAccess='false'"
+1>/DEBUG
+1>/PDB:C:\mumps\MUMPS_5.1.2\CMakeFiles\CMakeTmp\Debug/cmTC_95b6e.pdb
+1>/SUBSYSTEM:CONSOLE
+1>/IMPLIB:C:\mumps\MUMPS_5.1.2\CMakeFiles\CMakeTmp\Debug\cmTC_95b6e.lib
+1>user32.lib
+1>C:\mumps\lapack-3.6.1\lib\Debug\blas.lib
+1>/machine:X86
+1>/debug
+1>/INCREMENTAL
+1>cmTC_95b6e.dir\Debug\testFortranCompiler.obj
+1>cmTC_95b6e.dir\Debug\cmTC_95b6e.exe.embed.manifest.res
+1>Embedding manifest...
+1>Microsoft (R) Manifest Tool version 6.3.9600.17336
+1>Copyright (c) Microsoft Corporation 2012.
+1>All rights reserved.
+1>
+1>Build log written to  "file://C:\mumps\MUMPS_5.1.2\CMakeFiles\CMakeTmp\cmTC_95b6e.dir\Debug\BuildLog.htm"
+1>cmTC_95b6e - 0 error(s), 0 warning(s)
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+

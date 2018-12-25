@@ -1,5 +1,5 @@
 C
-C  This file is part of MUMPS 5.1.2, released
+C  This file is part of MUMPS 5.1.2, release d
 C  on Mon Oct  2 07:37:01 UTC 2017
 C
       PROGRAM MUMPS_TEST
