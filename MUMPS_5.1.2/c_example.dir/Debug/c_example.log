@@ -1,5 +1,12 @@
-﻿  Building Custom Rule C:/mumps/MUMPS_5.1.2/CMakeLists.txt
-  CMake does not need to re-run because C:/mumps/MUMPS_5.1.2/CMakeFiles/generate.stamp is up-to-date.
-  c_example.c
-  c_example.vcxproj -> C:\mumps\MUMPS_5.1.2\Debug\c_example.exe
-  c_example.vcxproj -> C:/mumps/MUMPS_5.1.2/Debug/c_example.pdb (Full PDB)
+﻿     Creating library C:/mumps/MUMPS_5.1.2/Debug/c_example.lib and object C:/mumps/MUMPS_5.1.2/Debug/c_example.exp
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+libdmumps.lib(dlr_core.obj) : error LNK2019: unresolved external symbol _DORGQR referenced in function _DMUMPS_LR_CORE_mp_DMUMPS_LRGEMM3
+libdmumps.lib(dfac_lr.obj) : error LNK2001: unresolved external symbol _DORGQR
+libdmumps.lib(dlr_core.obj) : error LNK2019: unresolved external symbol _ILAENV referenced in function _DMUMPS_TRUNCATED_RRQR
+libdmumps.lib(dlr_core.obj) : error LNK2019: unresolved external symbol _DLAMCH referenced in function _DMUMPS_TRUNCATED_RRQR
+libdmumps.lib(dlr_core.obj) : error LNK2019: unresolved external symbol _DLARFG referenced in function _DMUMPS_TRUNCATED_RRQR
+libdmumps.lib(dlr_core.obj) : error LNK2001: unresolved external symbol _DGEQRF
+libdmumps.lib(dlr_core.obj) : error LNK2001: unresolved external symbol _DORMQR
+libdmumps.lib(dfac_lr.obj) : error LNK2001: unresolved external symbol _DORMQR
+MSVCRTD.lib(_chandler4gs_.obj) : error LNK2019: unresolved external symbol __except_handler4_common referenced in function __except_handler4
+C:\mumps\MUMPS_5.1.2\Debug\c_example.exe : fatal error LNK1120: 7 unresolved externals
